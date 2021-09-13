@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'AerosRegular';
+  src: url('AerosRegular.svg#AerosRegular') format('svg'),
+       url('AerosRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'aeros';
+  src: url('aeros.eot');
+  src: url('aeros.eot?#iefix') format('embedded-opentype'),
+       url('aeros.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,298 @@
+@font-face {
+	font-family: 'AerosRegular';
+	src: url('./fonts/AerosRegular.svg#AerosRegular') format('svg'),
+		 url('./fonts/AerosRegular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  }
+
+@font-face {
+	font-family: 'aeros';
+	src: url('./fonts/aeros.eot');
+	src: url('./fonts/aeros.eot?#iefix') format('embedded-opentype'),
+		 url('./fonts/aeros.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('./fonts/redhat/RedHatDisplay-BlackItalic.eot');
+    src: url('./fonts/redhat/RedHatDisplay-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/redhat/RedHatDisplay-BlackItalic.woff2') format('woff2'),
+        url('./fonts/redhat/RedHatDisplay-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('./fonts/redhat/RedHatDisplay-Black.eot');
+    src: url('./fonts/redhat/RedHatDisplay-Black.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/redhat/RedHatDisplay-Black.woff2') format('woff2'),
+        url('./fonts/redhat/RedHatDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('./fonts/redhat/RedHatDisplay-Bold.eot');
+    src: url('./fonts/redhat/RedHatDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/redhat/RedHatDisplay-Bold.woff2') format('woff2'),
+        url('./fonts/redhat/RedHatDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('./fonts/redhat/RedHatDisplay-Regular.eot');
+    src: url('./fonts/redhat/RedHatDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/redhat/RedHatDisplay-Regular.woff2') format('woff2'),
+        url('./fonts/redhat/RedHatDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('./fonts/redhat/RedHatDisplay-MediumItalic.eot');
+    src: url('./fonts/redhat/RedHatDisplay-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/redhat/RedHatDisplay-MediumItalic.woff2') format('woff2'),
+        url('./fonts/redhat/RedHatDisplay-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('./fonts/redhat/RedHatDisplay-Medium.eot');
+    src: url('./fonts/redhat/RedHatDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/redhat/RedHatDisplay-Medium.woff2') format('woff2'),
+        url('./fonts/redhat/RedHatDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('./fonts/redhat/RedHatDisplay-Italic.eot');
+    src: url('./fonts/redhat/RedHatDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/redhat/RedHatDisplay-Italic.woff2') format('woff2'),
+        url('./fonts/redhat/RedHatDisplay-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('./fonts/redhat/RedHatDisplay-BoldItalic.eot');
+    src: url('./fonts/redhat/RedHatDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/redhat/RedHatDisplay-BoldItalic.woff2') format('woff2'),
+        url('./fonts/redhat/RedHatDisplay-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	background: radial-gradient(126.16% 88.06% at 33.49% -22.78%, #535353 0%, #000000 100%);
+}
+
+img {
+	image-rendering: smooth;
+}
+
+.section {
+	font-family: 'AerosRegular';
+	color: #fff;
+}
+
+.normal-text {
+	font-family: 'Red Hat Display';
+}
+
+#scene-1 {
+    top: 50%;
+    right: 2.5rem
+}
+
+#scene-2 {
+    top: 33%;
+    left: 2.5rem
+}
+
+#scene-3 {
+    top: 66%;
+    left: 5rem
+}
+
+.planet-background {
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.header-bottom-border {
+	height: 1px;
+	background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50.52%, rgba(255, 255, 255, 0) 100%);
+	opacity: 0.6;
+}
+
+* {
+  	box-sizing: border-box;
+}
+
+.is_footer.active .section-footer {
+    display: block;
+}
+.section-footer {
+    position: absolute;
+    bottom: 0;
+    display: none;
+    min-height: 60px;
+    background: #111111;
+    width: 100%;
+    z-index: 999;
+}
+.footer-body {
+    justify-content: center;
+    margin: 20px 0;
+    flex-direction: column;
+    width: 100%;
+}
+.footer-text {
+    margin-bottom: 15px;
+    font-family: Circular Std;
+    font-style: italic;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.px-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+.container {
+    max-width: 1320px;
+    margin: auto;
+}
+.bg {
+    background: radial-gradient(126.16% 88.06% at 33.49% -22.78%, #535353 0%, #000000 100%);
+}
+.kkk {
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.mmm {
+    width: 50%;
+}
+.mmm h2 {
+    font-family: Aeros;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 134.3%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.mmm p {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 160.3%;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.row {
+    width: 100%;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+  }
+  .row > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+  }
+  
+  .col {
+    flex: 1 0 0%;
+  }
+@media (min-width: 992px) {
+    .col {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+}
+@media (min-width: 576px) {
+    .col {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+.gx-5 {
+  --bs-gutter-x: 3rem;
+}
+.gy-5 {
+  --bs-gutter-y: 3rem;
+}
+.portfolio {
+    text-align: center;
+}
+.portfolio .img {
+    background: rgba(255, 255, 255, 0.05);
+}
+.portfolio .title {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160.3%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.portfolio .img {
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.portfolio .img img {
+    width: 200px;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}

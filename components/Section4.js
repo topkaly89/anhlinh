@@ -11,7 +11,7 @@ export default function Section4() {
             <div className="container px-4">
                 <div className="flex items-center justify-between w-full">
                     <div className="info row gx-5 gy-5 m-auto">
-                        <div className="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div className="col-12 col-sm-12 col-md-6 col-lg-6 text-start">
                             <Image src={s3} width={525} />
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-6">

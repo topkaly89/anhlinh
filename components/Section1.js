@@ -18,7 +18,7 @@ export default function Section1() {
                     <div className="astrov-body mx-auto h-screen flex items-center justify-center flex-col">
                     <div className="header py-4 w-full">
                         <div className="flex items-center justify-between mb-4">
-                            <div className="menu hide--desktop">
+                            <div className="menu flex items-center hide--desktop">
                                 <Image src={menu} width={24} height={24} id="menu"/>
                             </div>
                             <div className="socials flex items-center">

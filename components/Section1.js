@@ -12,9 +12,9 @@ export default function Section1() {
     //var fullpageApi = props.fullpageApi
 
     return (
-<div className="section fp-auto-height">
-            <div className="h-screen w-full flex flex-col">
-                <div className="h-screen container px-4">
+        <div className="section fp-auto-height">
+            <div className="w-full flex flex-col">
+                <div className="container px-4">
                     <div className="header py-4 w-full">
                         <div className="flex justify-between">
                             <div className="menu hide--desktop">
@@ -63,12 +63,6 @@ export default function Section1() {
                         </div>
                         <div className="header-bottom-border"></div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div className="section fp-auto-height">
-            <div className="h-screen w-full flex flex-col">
-                <div className="h-screen container px-4">
                     <div className="astrov-body mx-auto h-screen flex items-center justify-center flex-col">
                         <motion.div
                             initial={{opacity: 0}}

@@ -12,7 +12,7 @@ export default function Section1() {
     //var fullpageApi = props.fullpageApi
 
     return (
-        <div className="section">
+        <div className="section fp-auto-height">
             <div className="h-screen w-full flex flex-col">
                 <div className="h-screen container px-4">
                     <div className="header py-4 w-full">

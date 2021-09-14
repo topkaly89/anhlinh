@@ -13,8 +13,8 @@ export default function Home() {
 				<title>AstroV - Take Off and Go Beyond</title>
 				<meta name="description" content="AstroV" />
 				<link rel="icon" href="/favicon.ico" />
-                <script src="/js/jquery.min.js"></script>
-                <script src="/js/main.js"></script>
+                <script src="js/jquery.min.js"></script>
+                <script src="js/main.js"></script>
 			</Head>
 
 			<ReactFullpage

@@ -8,7 +8,6 @@ import Section4 from '../components/Section4'
 import Section5 from '../components/Section5'
 export default function Home() {
 	return (
-		<div>
 			<Head>
 				<title>AstroV - Take Off and Go Beyond</title>
 				<meta name="description" content="AstroV" />
@@ -29,6 +28,5 @@ export default function Home() {
                 <Section5/>
                 <Section2/>
             </div>
-		</div>
 	)
 }

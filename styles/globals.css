@@ -637,6 +637,7 @@ img {
   top: 0;
   width: 100%;
   right: 0;
+  height: 100vh;
 }
 section {
   position: relative;

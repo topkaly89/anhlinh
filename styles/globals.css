@@ -620,6 +620,9 @@ img {
   .info p {
     font-size: 16px;
   }
+  .info img {
+    max-width: 300px !important;
+  }
   .logo {
       width: 100% !important;
   }

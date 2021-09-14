@@ -11,8 +11,8 @@ export default function Section5() {
             <div className="container px-4">
                 <div className="flex items-center justify-between w-full">
                     
-                    <div className="row gx-5 gy-5">
-                        <div className="col-sm-6 col-md-4 col-lg-2">
+                    <div className="row gx-5 gy-5 m-auto">
+                        <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
                                     <Image src={s4}/>
@@ -20,7 +20,7 @@ export default function Section5() {
                                 <div className="title">col</div>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-4 col-lg-2">
+                        <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
                                     <Image src={s4}/>
@@ -28,7 +28,7 @@ export default function Section5() {
                                 <div className="title">col</div>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-4 col-lg-2">
+                        <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
                                     <Image src={s4}/>
@@ -36,7 +36,7 @@ export default function Section5() {
                                 <div className="title">col</div>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-4 col-lg-2">
+                        <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
                                     <Image src={s4}/>
@@ -44,7 +44,7 @@ export default function Section5() {
                                 <div className="title">col</div>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-4 col-lg-2">
+                        <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
                                     <Image src={s4}/>
@@ -52,7 +52,7 @@ export default function Section5() {
                                 <div className="title">col</div>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-4 col-lg-2">
+                        <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
                                     <Image src={s4}/>
@@ -60,7 +60,7 @@ export default function Section5() {
                                 <div className="title">col</div>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-4 col-lg-2">
+                        <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
                                     <Image src={s4}/>
@@ -68,7 +68,7 @@ export default function Section5() {
                                 <div className="title">col</div>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-4 col-lg-2">
+                        <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
                                     <Image src={s4}/>
@@ -76,7 +76,7 @@ export default function Section5() {
                                 <div className="title">col</div>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-4 col-lg-2">
+                        <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
                                     <Image src={s4}/>
@@ -84,7 +84,7 @@ export default function Section5() {
                                 <div className="title">col</div>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-4 col-lg-2">
+                        <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
                                     <Image src={s4}/>
@@ -92,7 +92,7 @@ export default function Section5() {
                                 <div className="title">col</div>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-4 col-lg-2">
+                        <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
                                     <Image src={s4}/>
@@ -100,7 +100,7 @@ export default function Section5() {
                                 <div className="title">col</div>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-4 col-lg-2">
+                        <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
                                     <Image src={s4}/>

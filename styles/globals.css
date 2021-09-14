@@ -197,16 +197,6 @@ img {
 .bg {
     background: radial-gradient(126.16% 88.06% at 33.49% -22.78%, #535353 0%, #000000 100%);
 }
-.kkk {
-    width: 50%;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-}
-.mmm {
-    width: 50%;
-}
 .mmm h2 {
     font-family: Aeros;
     font-style: normal;
@@ -512,7 +502,9 @@ img {
       width: 100%;
     }
 }
-
+.m-auto {
+    margin: auto !important;
+}
 
 .gx-5 {
   --bs-gutter-x: 3rem;

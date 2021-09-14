@@ -598,3 +598,21 @@ img {
     color: #FFFFFF;
   }
 
+.socials {
+    margin-left: auto;
+}
+
+@media screen and (max-width: 46.8125em) {
+  #menulist.hide--mobile {
+    -webkit-transform: translate3d(-100%, 0px, 0px);
+    transform: translate3d(-100%, 0px, 0px);
+    visibility: visible;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+  }
+  #menulist {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    visibility: visible;
+  }
+}

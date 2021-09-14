@@ -73,13 +73,13 @@ export default function Section1(props) {
                         animate={{opacity: 1}}
                         transition={{ ease: "easeOut", duration: 0.5, delay: 0.6 }}
                     >
-                        <div className="text-3xl md:text-5xl lg:text-6xl text-center select-none">TAKE OFF AND GO BEYOND</div>
+                        <div className="text-3xl md:text-5xl lg:text-6xl select-none">TAKE OFF AND GO BEYOND</div>
                         <div className="main-cta flex flex-col mt-10 lg:mt-12">
                             <motion.div
                                 initial={{opacity: 0}}
                                 animate={{opacity: 1}}
                                 transition={{ ease: "easeOut", duration: 0.5, delay: 0.8 }}
-                                className="cta-item text-sm mb-3 lg:mb-4 lg:text-md text-center md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
+                                className="cta-item text-sm mb-3 lg:mb-4 lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
                             >
                                 ABOUT US
                             </motion.div>
@@ -87,7 +87,7 @@ export default function Section1(props) {
                                 initial={{opacity: 0}}
                                 animate={{opacity: 1}}
                                 transition={{ ease: "easeOut", duration: 0.5, delay: 0.9 }}
-                                className="cta-item text-sm mb-3 lg:mb-4 lg:text-md text-center md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
+                                className="cta-item text-sm mb-3 lg:mb-4 lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
                             >
                                 > OUR SERVICES
                             </motion.div>
@@ -95,7 +95,7 @@ export default function Section1(props) {
                                 initial={{opacity: 0}}
                                 animate={{opacity: 1}}
                                 transition={{ ease: "easeOut", duration: 0.5, delay: 1 }}
-                                className="cta-item text-sm mb-3 lg:mb-4 lg:text-md text-center md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
+                                className="cta-item text-sm mb-3 lg:mb-4 lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
                             >
                                 > PORTFOLIO
                             </motion.div>
@@ -103,7 +103,7 @@ export default function Section1(props) {
                                 initial={{opacity: 0}}
                                 animate={{opacity: 1}}
                                 transition={{ ease: "easeOut", duration: 0.5, delay: 1.2 }}
-                                className="cta-item mb-3 lg:mb-4 text-sm lg:text-md text-center md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
+                                className="cta-item mb-3 lg:mb-4 text-sm lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
                                 onClick={() => fullpageApi.moveSectionDown()}
                             >
                                 CONTACT US
@@ -112,7 +112,7 @@ export default function Section1(props) {
                                 initial={{opacity: 0}}
                                 animate={{opacity: 1}}
                                 transition={{ ease: "easeOut", duration: 0.5, delay: 1.3 }}
-                                className="cta-item text-sm lg:text-md text-center md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
+                                className="cta-item text-sm lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
                             >
                                 ASTRONAUT CLUB (COMING SOON)
                             </motion.div>

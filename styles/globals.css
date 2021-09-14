@@ -582,3 +582,17 @@ img {
         text-align: center !important;
     }
   }
+
+  .h-title {
+    font-family: Aeros;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 79px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+  }
+

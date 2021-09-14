@@ -11,6 +11,7 @@ export default function Section5() {
     return (
         <div className="section w-full bg">
             <div className="container px-4">
+                <div className="h-title">Portfolio</div>
                 <div className="flex items-center justify-between w-full">
                     
                     <div className="row gx-5 gy-5 m-auto">

@@ -73,7 +73,7 @@ export default function Section1(props) {
                             initial={{opacity: 0}}
                             animate={{opacity: 1}}
                             transition={{ ease: "easeOut", duration: 0.5, delay: 0.6 }}
-                        >
+                            className="w-full">
                             <div className="text-3xl md:text-5xl lg:text-6xl select-none d-none">TAKE OFF AND GO BEYOND</div>
                             <div className="main-cta flex flex-col mt-10 lg:mt-12">
                                 <motion.div

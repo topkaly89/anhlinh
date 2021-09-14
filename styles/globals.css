@@ -626,6 +626,9 @@ img {
   .h-title {
     font-size: 24px;
   }
+  .footer-text {
+    font-size: 14px;
+  }
 }
 
 .astrov-body {
@@ -636,5 +639,7 @@ img {
   top: 0;
   right: 0;
 }
-
+.footer-body .socials {
+  margin: auto;
+}
 

@@ -10,10 +10,7 @@ $(function(){
 		//options here
 		autoScrolling:true,
 		scrollHorizontally: true,
-        css3: true,
-        fitToSection: true,
-        easing: 'easeInOutCubic',
-	easingcss3: 'ease'
+        css3: false
 	});
 
 	//methods

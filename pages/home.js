@@ -17,14 +17,20 @@ export default function Home() {
                 <link rel="stylesheet" type="text/css" href="/fullPage/fullpage.css" />
 
                 <script src="/js/jquery.min.js"></script>
-                <script src="/js/main.js"></script>
+                <script src="/js/jquery.easing.min.js"></script>
                 <script src="/fullPage/fullpage.js"></script>
+
+                <script src="/js/main.js"></script>
+                
 
 			</Head>
 
 			<div id="fullpage">
                 <Section1/>
                 <Section3/>
+                <Section4/>
+                <Section5/>
+                <Section2/>
             </div>
 		</div>
 	)

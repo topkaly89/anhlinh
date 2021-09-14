@@ -15,7 +15,9 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
                 <script>
-                    alert("Hello! I am an alert box!!");
+                    $(document).on('click', '#menu', function() {
+                        $('#menulisst').toggleClass("active");
+                    });
                 </script>
 			</Head>
 

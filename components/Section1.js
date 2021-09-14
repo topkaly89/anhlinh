@@ -63,7 +63,7 @@ export default function Section1() {
                         </div>
                         <div className="header-bottom-border"></div>
                     </div>
-                    <div className="astrov-body mx-auto h-screen flex items-center justify-center flex-col">
+                    <div className="astrov-body mx-auto h-screen flex items-center justify-center flex-col px-4">
                         <motion.div
                             initial={{opacity: 0}}
                             animate={{opacity: 1}}

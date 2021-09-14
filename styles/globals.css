@@ -638,3 +638,13 @@ img {
   width: 100%;
   right: 0;
 }
+section {
+  position: relative;
+}
+.astrov-body {
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  right: 0;
+}

@@ -197,7 +197,7 @@ img {
 .bg {
     background: radial-gradient(126.16% 88.06% at 33.49% -22.78%, #535353 0%, #000000 100%);
 }
-.mmm h2 {
+.info h2 {
     font-family: Aeros;
     font-style: normal;
     font-weight: normal;
@@ -206,7 +206,7 @@ img {
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-.mmm p {
+.info p {
     font-family: Red Hat Display;
     font-style: normal;
     font-weight: normal;

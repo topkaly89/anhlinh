@@ -629,37 +629,8 @@ img {
 }
 
 
-.header {
-  z-index: 99999999;
-}
-.header {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  right: 0;
-  height: 100vh;
-}
-section {
-  position: relative;
-}
-.astrov-body {
-  z-index: 99;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  right: 0;
-}
 
 
 
 
-.header-top {
-  z-index: 99999999;
-}
-.header-top {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  right: 0;
-  height: 100vh;
-}
+

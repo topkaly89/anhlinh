@@ -15,10 +15,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
                 <script>
-                    $(function(){
-                        "use strict";
-                        alert("Hello! I am an alert box!!");
-                    });
+                    alert("Hello! I am an alert box!!");
                 </script>
 			</Head>
 

@@ -9,7 +9,11 @@ $(function(){
     $('#fullpage').fullpage({
 		//options here
 		autoScrolling:true,
-		scrollHorizontally: true
+		scrollHorizontally: true,
+        css3: true,
+        fitToSection: true,
+        easing: 'easeInOutCubic',
+	easingcss3: 'ease'
 	});
 
 	//methods

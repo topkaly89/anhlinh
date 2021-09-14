@@ -8,8 +8,8 @@ import discord from '../public/socials/discord.svg'
 import medium from '../public/socials/medium.svg'
 import menu from '../public/menu.svg'
 
-export default function Section1(props) {
-    var fullpageApi = props.fullpageApi
+export default function Section1() {
+    //var fullpageApi = props.fullpageApi
 
     return (
         <div className="section">
@@ -108,7 +108,7 @@ export default function Section1(props) {
                                     animate={{opacity: 1}}
                                     transition={{ ease: "easeOut", duration: 0.5, delay: 1.2 }}
                                     className="cta-item mb-3 lg:mb-4 text-sm lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
-                                    onClick={() => fullpageApi.moveSectionDown()}
+                                    //onClick={() => fullpageApi.moveSectionDown()}
                                 >
                                     CONTACT US
                                 </motion.div>

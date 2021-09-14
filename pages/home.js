@@ -18,10 +18,10 @@ export default function Home() {
 			</Head>
 
 			<Section1 fullpageApi={fullpageApi} />
-            <Section3 fullpageApi={fullpageApi} />
-            <Section4 fullpageApi={fullpageApi} />
-            <Section5 fullpageApi={fullpageApi} />
-            <Section2 fullpageApi={fullpageApi} />
+                                <Section3 fullpageApi={fullpageApi} />
+                                <Section4 fullpageApi={fullpageApi} />
+                                <Section5 fullpageApi={fullpageApi} />
+                                <Section2 fullpageApi={fullpageApi} />
 		</div>
 	)
 }

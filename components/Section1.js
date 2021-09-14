@@ -6,6 +6,7 @@ import telegram from '../public/socials/telegram.svg'
 import youtube from '../public/socials/youtube.svg'
 import discord from '../public/socials/discord.svg'
 import medium from '../public/socials/medium.svg'
+import menu from '../public/menu.svg'
 
 export default function Section1(props) {
     var fullpageApi = props.fullpageApi
@@ -16,7 +17,9 @@ export default function Section1(props) {
                 <div className="container px-4">
                     <div className="header py-4 w-full">
                         <div className="flex justify-between px-6">
-                            <div className="menu"></div>
+                            <div className="menu">
+                                <Image src={menu} width={60} />
+                            </div>
                             <div className="socials flex items-center mb-4">
                                 <motion.a
                                     initial={{opacity: 0}}

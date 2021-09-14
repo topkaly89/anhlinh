@@ -17,11 +17,11 @@ export default function Home() {
                 <script src="/js/main.js"></script>
 			</Head>
 
-			<Section1 fullpageApi={fullpageApi} />
-                                <Section3 fullpageApi={fullpageApi} />
-                                <Section4 fullpageApi={fullpageApi} />
-                                <Section5 fullpageApi={fullpageApi} />
-                                <Section2 fullpageApi={fullpageApi} />
+			<Section1/>
+                                <Section3 />
+                                <Section4 />
+                                <Section5 />
+                                <Section2 />
 		</div>
 	)
 }

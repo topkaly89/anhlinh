@@ -112,7 +112,7 @@ export default function Section1() {
                                     //onClick={() => fullpageApi.moveSectionDown()}
                                 >
                                     CONTACT US
-                                </motion.div>
+                                </motion.a>
                                 <motion.div
                                     initial={{opacity: 0}}
                                     animate={{opacity: 1}}

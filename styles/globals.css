@@ -645,4 +645,6 @@ img {
 .footer-body .socials {
   margin: auto;
 }
-
+body.fp-viewing-0 #fullpage {
+  transform: translate3d(0px, 0px, 0px) !important;
+}

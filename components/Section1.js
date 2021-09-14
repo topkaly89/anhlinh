@@ -14,8 +14,8 @@ export default function Section1(props) {
         <div className="section">
             <div className="h-screen w-full flex flex-col">
                 <div className="container px-4">
-                    <div className="header py-4 absolute w-full">
-                        <div className="flex justify-between px-6 lg:px-40">
+                    <div className="header py-4 w-full">
+                        <div className="flex justify-between px-6">
                             <div className="menu"></div>
                             <div className="socials flex items-center mb-4">
                                 <motion.a

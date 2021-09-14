@@ -32,9 +32,6 @@ export default function Home() {
                     }
                 }
             />
-            <div className="footer text-white">
-                aaaa
-            </div>
 		</div>
 	)
 }

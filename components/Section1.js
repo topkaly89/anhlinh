@@ -19,7 +19,7 @@ export default function Section1() {
                     <div className="header py-4 w-full">
                         <div className="flex justify-between">
                             <div className="menu hide--desktop">
-                                <Image src={menu} width={60} id="menu"/>
+                                <Image src={menu} width={24} height={24} id="menu"/>
                             </div>
                             <div className="socials flex items-center mb-4">
                                 <motion.a

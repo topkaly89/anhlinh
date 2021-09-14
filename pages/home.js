@@ -25,9 +25,6 @@ export default function Home() {
 			<div id="fullpage">
                 <Section1/>
                 <Section3/>
-                <Section4/>
-                <Section5/>
-                <Section2/>
             </div>
 		</div>
 	)

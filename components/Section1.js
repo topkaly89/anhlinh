@@ -16,9 +16,9 @@ export default function Section1(props) {
             <div className="h-screen w-full flex flex-col">
                 <div className="container px-4">
                     <div className="header py-4 w-full">
-                        <div className="flex justify-between px-6">
-                            <div className="menu">
-                                <Image src={menu} width={60} />
+                        <div className="flex justify-between">
+                            <div className="menu hide--desktop">
+                                <Image src={menu} width={60} id="menu"/>
                             </div>
                             <div className="socials flex items-center mb-4">
                                 <motion.a
@@ -76,7 +76,7 @@ export default function Section1(props) {
                             initial={{opacity: 0}}
                             animate={{opacity: 1}}
                             transition={{ ease: "easeOut", duration: 0.5, delay: 0.6 }}
-                            className="w-full">
+                            className="w-full hide--mobile" id="menulist">
                             <div className="text-3xl md:text-5xl lg:text-6xl select-none d-none">TAKE OFF AND GO BEYOND</div>
                             <div className="main-cta flex flex-col mt-10 lg:mt-12">
                                 <motion.div

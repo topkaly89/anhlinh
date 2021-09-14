@@ -628,5 +628,13 @@ img {
   }
 }
 
+.astrov-body {
+  position: relative;
+}
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 
 

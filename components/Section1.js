@@ -65,7 +65,7 @@ export default function Section1(props) {
                             initial={{opacity: 0}}
                             animate={{opacity: 1}}
                             transition={{ ease: "easeOut", duration: 0.5, delay: 0.3 }}
-                            className="logo w-1/2 lg:w-1/3 mb-10 lg:mb-12"
+                            className="logo w-1/2 mb-10 lg:mb-12"
                         >
                             <img src='/logo.png' />
                         </motion.div>

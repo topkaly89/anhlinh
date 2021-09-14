@@ -14,7 +14,7 @@ export default function Section1() {
     return (
         <div className="section">
             <div className="h-screen w-full flex flex-col">
-                <div className="container px-4">
+                <div className="h-screen container px-4">
                     <div className="header py-4 w-full">
                         <div className="flex justify-between">
                             <div className="menu hide--desktop">

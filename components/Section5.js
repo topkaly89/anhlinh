@@ -3,6 +3,8 @@ import Image from 'next/image'
 
 
 import s4 from '../public/s4.svg'
+import s5 from '../public/s5.svg'
+import s6 from '../public/s6.svg'
 
 export default function Section5() {
   
@@ -17,95 +19,95 @@ export default function Section5() {
                                 <div className="img">
                                     <Image src={s4}/>
                                 </div>
-                                <div className="title">col</div>
+                                <div className="title">DotOracle</div>
                             </div>
                         </div>
                         <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
-                                    <Image src={s4}/>
+                                    <Image src={s5}/>
                                 </div>
-                                <div className="title">col</div>
+                                <div className="title">Defi Warrior</div>
                             </div>
                         </div>
                         <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
-                                    <Image src={s4}/>
+                                    <Image src={s6}/>
                                 </div>
-                                <div className="title">col</div>
+                                <div className="title">Coin98</div>
                             </div>
                         </div>
                         <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
-                                    <Image src={s4}/>
+                                    
                                 </div>
-                                <div className="title">col</div>
+                                <div className="title">Item</div>
                             </div>
                         </div>
                         <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
-                                    <Image src={s4}/>
+                                    
                                 </div>
-                                <div className="title">col</div>
+                                <div className="title">Item</div>
                             </div>
                         </div>
                         <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
-                                    <Image src={s4}/>
+                                    
                                 </div>
-                                <div className="title">col</div>
+                                <div className="title">Item</div>
                             </div>
                         </div>
                         <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
-                                    <Image src={s4}/>
+                                    
                                 </div>
-                                <div className="title">col</div>
+                                <div className="title">Item</div>
                             </div>
                         </div>
                         <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
-                                    <Image src={s4}/>
+                                    
                                 </div>
-                                <div className="title">col</div>
+                                <div className="title">Item</div>
                             </div>
                         </div>
                         <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
-                                    <Image src={s4}/>
+                                    
                                 </div>
-                                <div className="title">col</div>
+                                <div className="title">Item</div>
                             </div>
                         </div>
                         <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
-                                    <Image src={s4}/>
+                                    
                                 </div>
-                                <div className="title">col</div>
+                                <div className="title">Item</div>
                             </div>
                         </div>
                         <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
-                                    <Image src={s4}/>
+                                    
                                 </div>
-                                <div className="title">col</div>
+                                <div className="title">Item</div>
                             </div>
                         </div>
                         <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
                                 <div className="img">
-                                    <Image src={s4}/>
+                                    
                                 </div>
-                                <div className="title">col</div>
+                                <div className="title">Item</div>
                             </div>
                         </div>
                     </div>

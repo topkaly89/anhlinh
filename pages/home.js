@@ -13,8 +13,13 @@ export default function Home() {
 				<title>AstroV - Take Off and Go Beyond</title>
 				<meta name="description" content="AstroV" />
 				<link rel="icon" href="/favicon.ico" />
-                <script src="../js/jquery.min.js"></script>
-                <script src="../js/main.js"></script>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                <script>
+                    $(function(){
+                        "use strict";
+                        alert("Hello! I am an alert box!!");
+                    });
+                </script>
 			</Head>
 
 			<ReactFullpage

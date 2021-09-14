@@ -3494,12 +3494,12 @@
             }
 
             //using extensions? Wrong file!
-            extensions.forEach(function(extension){
+            //extensions.forEach(function(extension){
                 //is the option set to true?
-                if(options[extension]){
-                    showError('warn', 'fullpage.js extensions require fullpage.extensions.min.js file instead of the usual fullpage.js. Requested: '+ extension);
-                }
-            });
+                //if(options[extension]){
+                 //   showError('warn', 'fullpage.js extensions require fullpage.extensions.min.js file instead of the usual fullpage.js. Requested: '+ extension);
+                //}
+            //});
 
             //anchors can not have the same value as any element ID or NAME
             options.anchors.forEach(function(name){

@@ -1,6 +1,13 @@
 import { useEffect, useState } from 'react'
 import Parallax from "parallax-js"
 import { motion } from 'framer-motion';
+import Image from 'next/image'
+
+// Social logos
+import telegram from '../public/socials/telegram.svg'
+import youtube from '../public/socials/youtube.svg'
+import discord from '../public/socials/discord.svg'
+import medium from '../public/socials/medium.svg'
 
 const layers = [
     {
@@ -48,13 +55,60 @@ export default function Section2(props) {
     const [isHovered, setHovered] = useState(false)
 
     return (
-        <div className="section w-full bg" id="contact">
+        <div className="section w-full bg is_footer" id="contact">
             <div className="section-header px-30 flex px-44 absolute top-0 py-10 lg:py-20 justify-between w-full z-50 flex-col md:flex-row items-center">
                 <div className="section-title text-3xl lg:text-6xl flex items-center">
                     CONTACT
                 </div>
                 <div className="section-title normal-text flex items-center text-gray-200 hover:text-white transition-all text-lg lg:text-2xl">
                     <a href="mailto:contact@astrov.ventures">contact@astrov.ventures</a>
+                </div>
+            </div>
+            <div className="section-footer">
+                <div className="header-bottom-border"></div>
+                
+                <div className="footer-body flex items-center">
+                    <div className="footer-text">Copyright © 2021 AstroV. All rights reserved.</div>
+                    <div className="socials flex items-center mb-4">
+                        <motion.a
+                            initial={{opacity: 0}}
+                            animate={{opacity: 1}}
+                            transition={{ ease: "easeInOut", duration: 0.5, delay: 0.3 }}
+                            className="social-item mr-4 flex items-center p-2 rounded-full transition-all bg-background hover:bg-backgroundAction cursor-pointer"
+                            href="https://t.me/AstroGamingSocietyVN"
+                            target="_blank"
+                        >
+                            <Image src={telegram} width={18} height={18} />
+                        </motion.a>
+                        <motion.a
+                            initial={{opacity: 0}}
+                            animate={{opacity: 1}}
+                            transition={{ ease: "easeInOut", duration: 0.5, delay: 0.5 }}
+                            className="social-item mr-4 flex items-center p-2 rounded-full transition-all bg-background hover:bg-backgroundAction cursor-pointer"
+                            href="https://discord.gg/vBJvumfvt5"
+                            target="_blank"
+                        >
+                            <Image src={discord} width={18} height={18} />
+                        </motion.a>
+                        <motion.a
+                            initial={{opacity: 0}}
+                            animate={{opacity: 1}}
+                            transition={{ ease: "easeInOut", duration: 0.5, delay: 0.7 }}
+                            className="social-item mr-4 flex items-center p-2 rounded-full transition-all bg-background hover:bg-backgroundAction cursor-pointer"
+                            href="https://medium.com/@astrov.ventures"
+                            target="_blank"
+                        >
+                            <Image src={medium} width={18} height={18} />
+                        </motion.a>
+                        <motion.a
+                            initial={{opacity: 0}}
+                            animate={{opacity: 1}}
+                            transition={{ ease: "easeInOut", duration: 0.5, delay: 0.9 }}
+                            className="social-item flex items-center p-2 rounded-full transition-all bg-background hover:bg-backgroundAction cursor-pointer"
+                        >
+                            <Image src={youtube} width={18} height={18} />
+                        </motion.a>
+                    </div>
                 </div>
             </div>
             <div className="w-full h-screen absolute top-0 left-0 z-10">

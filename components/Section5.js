@@ -9,7 +9,7 @@ import s6 from '../public/s6.svg'
 export default function Section5() {
   
     return (
-        <div className="section w-full bg">
+        <div className="section w-full bg" data-anchor="slide4">
             <div className="container px-4">
                 <div className="h-title">Portfolio</div>
                 <div className="flex items-center justify-between w-full">

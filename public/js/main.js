@@ -22,7 +22,7 @@ $(function(){
       
       //adding the action to the button
       $(document).on('click', '#moveTo5', function(){
-        fullpage_api.moveTo('page5', 1);
+        fullpage_api.moveTo('page5', 4);
       });
 
 });

@@ -12,7 +12,7 @@ export default function Section1() {
     //var fullpageApi = props.fullpageApi
 
     return (
-        <div className="section bg">
+        <div className="section bg" data-anchor="slide1">
             <div className="w-full flex flex-col">
                 <div className="container px-4">
                     <div className="astrov-body mx-auto h-screen flex items-center justify-center flex-col">

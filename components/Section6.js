@@ -10,7 +10,7 @@ import medium from '../public/socials/medium.svg'
 
 export default function Section6() {
     return (
-        <div className="section fp-auto-height w-full bg is_footer">
+        <div className="section fp-auto-height w-full bg is_footer" data-anchor="slide6">
             <div className="section-footer">
                 <div className="header-bottom-border"></div>
                 

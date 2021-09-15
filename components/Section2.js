@@ -55,7 +55,7 @@ export default function Section2(props) {
     const [isHovered, setHovered] = useState(false)
 
     return (
-        <div className="section w-full is_footer" id="contact">
+        <div className="section w-full bg is_footer" id="contact">
             <div className="section-header px-30 flex px-44 absolute top-0 py-10 lg:py-20 justify-between w-full z-50 flex-col md:flex-row items-center">
                 <div className="section-title text-3xl lg:text-6xl flex items-center">
                     CONTACT
@@ -68,7 +68,7 @@ export default function Section2(props) {
                 <div className="header-bottom-border"></div>
                 
                 <div className="footer-body flex items-center">
-                    <div className="footer-text">Copyright © 2021 AtroV. All rights reserved.</div>
+                    <div className="footer-text">Copyright © 2021 AstroV. All rights reserved.</div>
                     <div className="socials flex items-center mb-4">
                         <motion.a
                             initial={{opacity: 0}}

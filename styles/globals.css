@@ -648,3 +648,6 @@ img {
 body.fp-viewing-0 #fullpage {
   transform: translate3d(0px, 0px, 0px) !important;
 }
+.portfolio-container {
+  justify-content: center;
+}

@@ -55,7 +55,7 @@ export default function Section2(props) {
     const [isHovered, setHovered] = useState(false)
 
     return (
-        <div className="section w-full bg is_footer" data-section="5">
+        <div className="section w-full bg is_footer">
             <div className="footer">
             <div className="footer-container">
             <div className="section-header px-30 flex px-44 absolute top-0 py-10 lg:py-20 justify-between w-full z-50 flex-col md:flex-row items-center">

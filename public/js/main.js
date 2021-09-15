@@ -20,12 +20,7 @@ $(function(){
         anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
         lockAnchors: true
       });
-      
-      //adding the action to the button
-      $(document).on('click', '#moveTo5', function(){
-        fullpage_api.moveTo('page5', 4);
-      });
-
+   
       $('.moveTo').click(function(){
         var sectionIndex = $(this).attr('data-section');
         var slideIndex = $(this).attr('data-slide') || 0;

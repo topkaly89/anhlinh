@@ -7,7 +7,7 @@ import s2 from '../public/s2.svg'
 export default function Section3() {
 
     return (
-        <div className="section w-full bg" data-section="2">
+        <div className="section w-full bg">
             <div className="container px-4">
                 <div className="flex items-center justify-between w-full">
                     <div className="info row gx-5 gy-5 m-auto">

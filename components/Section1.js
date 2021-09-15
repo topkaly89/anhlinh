@@ -27,7 +27,8 @@ export default function Section1() {
                                         initial={{opacity: 0}}
                                         animate={{opacity: 1}}
                                         transition={{ ease: "easeOut", duration: 0.5, delay: 0.8 }}
-                                        className="cta-item text-sm mb-3 lg:mb-4 lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
+                                        className="moveTo cta-item text-sm mb-3 lg:mb-4 lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
+                                        data-section="2"
                                     >
                                         ABOUT US
                                     </motion.div>
@@ -35,7 +36,8 @@ export default function Section1() {
                                         initial={{opacity: 0}}
                                         animate={{opacity: 1}}
                                         transition={{ ease: "easeOut", duration: 0.5, delay: 0.9 }}
-                                        className="cta-item text-sm mb-3 lg:mb-4 lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
+                                        className="moveTo cta-item text-sm mb-3 lg:mb-4 lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
+                                        data-section="3"
                                     >
                                         > OUR SERVICES
                                     </motion.div>
@@ -43,7 +45,8 @@ export default function Section1() {
                                         initial={{opacity: 0}}
                                         animate={{opacity: 1}}
                                         transition={{ ease: "easeOut", duration: 0.5, delay: 1 }}
-                                        className="cta-item text-sm mb-3 lg:mb-4 lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
+                                        className="moveTo cta-item text-sm mb-3 lg:mb-4 lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
+                                        data-section="4"
                                     >
                                         > PORTFOLIO
                                     </motion.div>
@@ -52,7 +55,7 @@ export default function Section1() {
                                         animate={{opacity: 1}}
                                         transition={{ ease: "easeOut", duration: 0.5, delay: 1.2 }}
                                         className="moveTo cta-item mb-3 lg:mb-4 text-sm lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
-                                        data-section="4"
+                                        data-section="5"
                                         //onClick={() => fullpageApi.moveSectionDown()}
                                     >
                                         CONTACT US
@@ -134,7 +137,8 @@ export default function Section1() {
                                     initial={{opacity: 0}}
                                     animate={{opacity: 1}}
                                     transition={{ ease: "easeOut", duration: 0.5, delay: 0.8 }}
-                                    className="cta-item text-sm mb-3 lg:mb-4 lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
+                                    className="moveTo cta-item text-sm mb-3 lg:mb-4 lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
+                                    data-section="2"
                                 >
                                     ABOUT US
                                 </motion.div>
@@ -142,7 +146,8 @@ export default function Section1() {
                                     initial={{opacity: 0}}
                                     animate={{opacity: 1}}
                                     transition={{ ease: "easeOut", duration: 0.5, delay: 0.9 }}
-                                    className="cta-item text-sm mb-3 lg:mb-4 lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
+                                    className="moveTo cta-item text-sm mb-3 lg:mb-4 lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
+                                    data-section="3"
                                 >
                                     > OUR SERVICES
                                 </motion.div>
@@ -150,7 +155,8 @@ export default function Section1() {
                                     initial={{opacity: 0}}
                                     animate={{opacity: 1}}
                                     transition={{ ease: "easeOut", duration: 0.5, delay: 1 }}
-                                    className="cta-item text-sm mb-3 lg:mb-4 lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
+                                    className="moveTo cta-item text-sm mb-3 lg:mb-4 lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
+                                    data-section="4"
                                 >
                                     > PORTFOLIO
                                 </motion.div>
@@ -158,9 +164,8 @@ export default function Section1() {
                                     initial={{opacity: 0}}
                                     animate={{opacity: 1}}
                                     transition={{ ease: "easeOut", duration: 0.5, delay: 1.2 }}
-                                    className="cta-item mb-3 lg:mb-4 text-sm lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
-                                    id="moveTo5"
-                                    //onClick={() => fullpageApi.moveSectionDown()}
+                                    className="moveTo cta-item mb-3 lg:mb-4 text-sm lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
+                                    data-section="5"
                                 >
                                     CONTACT US
                                 </motion.div>
@@ -168,7 +173,7 @@ export default function Section1() {
                                     initial={{opacity: 0}}
                                     animate={{opacity: 1}}
                                     transition={{ ease: "easeOut", duration: 0.5, delay: 1.3 }}
-                                    className="cta-item text-sm lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
+                                    className="moveTo cta-item text-sm lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
                                 >
                                     ASTRONAUT CLUB (COMING SOON)
                                 </motion.div>

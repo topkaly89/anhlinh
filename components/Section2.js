@@ -153,6 +153,8 @@ export default function Section2(props) {
                         animate={{opacity: 1}}
                         transition={{ ease: "easeInOut", duration: 0.5, delay: 0.9 }}
                         className="social-item flex items-center p-2 rounded-full transition-all bg-background hover:bg-backgroundAction cursor-pointer"
+                        href="https://twitter.com/AstrovVentures"
+                        target="_blank"
                     >
                         <Image src={twitter} width={18} height={18} />
                     </motion.a>

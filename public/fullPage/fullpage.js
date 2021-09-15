@@ -3454,6 +3454,7 @@
         * Displays warnings
         */
         function displayWarnings(){
+            /*
             var l = options['li' + 'c' + 'enseK' + 'e' + 'y'];
             var msgStyle = 'font-size: 15px;background:yellow;';
 
@@ -3522,6 +3523,7 @@
                     }
                 }
             });
+            */
         }
 
         /**

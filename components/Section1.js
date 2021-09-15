@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 
 // Social logos
 import telegram from '../public/socials/telegram.svg'
-import youtube from '../public/socials/youtube.svg'
+import twitter from '../public/socials/twitter.svg'
 import discord from '../public/socials/discord.svg'
 import medium from '../public/socials/medium.svg'
 import menu from '../public/menu.svg'
@@ -107,7 +107,7 @@ export default function Section1() {
                                     transition={{ ease: "easeInOut", duration: 0.5, delay: 0.9 }}
                                     className="social-item flex items-center p-2 rounded-full transition-all bg-background hover:bg-backgroundAction cursor-pointer"
                                 >
-                                    <Image src={youtube} width={18} height={18} />
+                                    <Image src={twitter} width={18} height={18} />
                                 </motion.a>
                             </div>
                         </div>

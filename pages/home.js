@@ -6,13 +6,14 @@ import Section2 from '../components/Section2'
 import Section3 from '../components/Section3'
 import Section4 from '../components/Section4'
 import Section5 from '../components/Section5'
+import Section6 from '../components/Section6'
 export default function Home() {
 	return (
 		<div>
 			<Head>
 				<title>AstroV - Take Off and Go Beyond</title>
 				<meta name="description" content="AstroV" />
-                <meta name="color-scheme" content="light only">
+                <meta name="color-scheme" content="light dark">
 
 				<link rel="icon" href="/favicon.ico" />
 
@@ -32,6 +33,7 @@ export default function Home() {
                 <Section4/>
                 <Section5/>
                 <Section2/>
+                <Section6/>
             </div>
 		</div>
 	)

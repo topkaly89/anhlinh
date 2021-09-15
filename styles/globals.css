@@ -544,6 +544,7 @@ img {
     max-height: 100%;
 }
 .portfolio .img:hover {
+  background: rgba(255, 255, 255, 0.2);
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px)
 }

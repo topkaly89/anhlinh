@@ -12,8 +12,6 @@ export default function Home() {
 			<Head>
 				<title>AstroV - Take Off and Go Beyond</title>
 				<meta name="description" content="AstroV" />
-                <meta name="color-scheme" content="light dark">
-
 				<link rel="icon" href="/favicon.ico" />
 
                 <link rel="stylesheet" type="text/css" href="/fullPage/fullpage.css" />

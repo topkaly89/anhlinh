@@ -12,7 +12,7 @@ export default function Section1() {
     //var fullpageApi = props.fullpageApi
 
     return (
-        <div className="section bg" data-anchor="page1">
+        <div className="section bg" data-section="1">
             <div className="w-full flex flex-col">
                 <div className="container px-4">
                     <div className="astrov-body mx-auto h-screen flex items-center justify-center flex-col">
@@ -51,8 +51,8 @@ export default function Section1() {
                                         initial={{opacity: 0}}
                                         animate={{opacity: 1}}
                                         transition={{ ease: "easeOut", duration: 0.5, delay: 1.2 }}
-                                        className="cta-item mb-3 lg:mb-4 text-sm lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
-                                        id="moveTo5"
+                                        className="moveTo cta-item mb-3 lg:mb-4 text-sm lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
+                                        data-section="4"
                                         //onClick={() => fullpageApi.moveSectionDown()}
                                     >
                                         CONTACT US

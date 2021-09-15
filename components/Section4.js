@@ -7,7 +7,7 @@ import s3 from '../public/s3.svg'
 export default function Section4() {
 
     return (
-        <div className="section w-full bg" data-anchor="page3">
+        <div className="section w-full bg" data-section="3">
             <div className="container px-4">
                 <div className="flex items-center justify-between w-full">
                     <div className="info row gx-5 gy-5 m-auto">

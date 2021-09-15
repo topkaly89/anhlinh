@@ -26,4 +26,10 @@ $(function(){
         fullpage_api.moveTo('page5', 4);
       });
 
+      $('.moveTo').click(function(){
+        var sectionIndex = $(this).attr('data-section');
+        var slideIndex = $(this).attr('data-slide') || 0;
+        fullpage_api.moveTo(sectionIndex, slideIndex);
+    });
+
 });

@@ -8,7 +8,7 @@ import discord from '../public/socials/discord.svg'
 import medium from '../public/socials/medium.svg'
 
 
-export default function Section2() {
+export default function Section6() {
     return (
         <div className="section fp-auto-height w-full bg is_footer">
             <div className="section-footer">

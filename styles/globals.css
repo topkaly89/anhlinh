@@ -672,3 +672,9 @@ body.fp-viewing-0 #fullpage {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.ccccc {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}

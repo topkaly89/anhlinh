@@ -52,7 +52,7 @@ export default function Section1() {
                                         animate={{opacity: 1}}
                                         transition={{ ease: "easeOut", duration: 0.5, delay: 1.2 }}
                                         className="cta-item mb-3 lg:mb-4 text-sm lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
-                                        data-anchor="slide2"
+                                        id="moveTo5"
                                         //onClick={() => fullpageApi.moveSectionDown()}
                                     >
                                         CONTACT US
@@ -157,7 +157,7 @@ export default function Section1() {
                                     animate={{opacity: 1}}
                                     transition={{ ease: "easeOut", duration: 0.5, delay: 1.2 }}
                                     className="cta-item mb-3 lg:mb-4 text-sm lg:text-md md:text-left text-gray-400 hover:text-white transition-all cursor-pointer"
-                                    data-anchor="slide2"
+                                    id="moveTo5"
                                     //onClick={() => fullpageApi.moveSectionDown()}
                                 >
                                     CONTACT US

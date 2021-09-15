@@ -16,5 +16,13 @@ $(function(){
 	$.fn.fullpage.setAllowScrolling(true);
 
 
+    new fullpage('#fullpage', {
+        anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6']
+      });
+      
+      //adding the action to the button
+      $(document).on('click', '#moveTo5', function(){
+        fullpage_api.moveTo('page5', 1);
+      });
 
 });

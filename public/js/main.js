@@ -17,7 +17,7 @@ $(function(){
 
 
     new fullpage('#fullpage', {
-        anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6']
+        anchors: ['page1', 'page2', 'page3', 'page4', 'page5']
       });
       
       //adding the action to the button

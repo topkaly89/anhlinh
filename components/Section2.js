@@ -3,12 +3,6 @@ import Parallax from "parallax-js"
 import { motion } from 'framer-motion';
 import Image from 'next/image'
 
-// Social logos
-import telegram from '../public/socials/telegram.svg'
-import youtube from '../public/socials/youtube.svg'
-import discord from '../public/socials/discord.svg'
-import medium from '../public/socials/medium.svg'
-
 const layers = [
     {
         name: "planet_a",

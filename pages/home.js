@@ -14,10 +14,10 @@ export default function Home() {
 				<meta name="description" content="AstroV" />
 				<link rel="icon" href="/favicon.ico" />
 
-                <link rel="stylesheet" type="text/css" href="/fullPage/fullpage.css" />
+                <link rel="stylesheet" type="text/css" href="https://alvarotrigo.com/fullPage/fullpage.css" />
 
                 <script src="/js/jquery.min.js"></script>
-                <script src="/fullPage/fullpage.js"></script>
+                <script src="https://alvarotrigo.com/fullPage/fullpage.js"></script>
 
                 <script src="/js/main.js"></script>
                 

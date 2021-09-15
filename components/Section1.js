@@ -22,7 +22,7 @@ export default function Section1() {
                             <div class="dropdown">
                             <span><Image src={menu} width={24} height={24} id="menu1"/></span>
                             <div class="dropdown-content">
-                                <div className="flex flex-col mt-10 lg:mt-12">
+                                <div className="flex flex-col">
                                     <motion.div
                                         initial={{opacity: 0}}
                                         animate={{opacity: 1}}

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import Parallax from "parallax-js"
 import { motion } from 'framer-motion';
+import Image from 'next/image'
 
 // Social logos
 import telegram from '../public/socials/telegram.svg'

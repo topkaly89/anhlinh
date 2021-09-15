@@ -17,7 +17,12 @@ $(function(){
 
 
     new fullpage('#fullpage', {
-        //anchors: ['page1', 'page2', 'page3', 'page4', 'page5']
+        anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+        fitToSection: true,
+        autoScrolling: false,
+        bigSectionsDestination: top,
+        offsetSections: true,
+        animateAnchor: false
       });
       
       //adding the action to the button

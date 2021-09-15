@@ -9,7 +9,7 @@ $(function(){
     $('#fullpage').fullpage({
 		//options here
 		autoScrolling:true,
-		scrollHorizontally: true
+		scrollHorizontally: false
 	});
 
 	//methods

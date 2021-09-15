@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import Parallax from "parallax-js"
 import { motion } from 'framer-motion';
-import Image from 'next/image'
 
 const layers = [
     {

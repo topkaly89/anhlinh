@@ -2,6 +2,12 @@ import { useEffect, useState } from 'react'
 import Parallax from "parallax-js"
 import { motion } from 'framer-motion';
 
+// Social logos
+import telegram from '../public/socials/telegram.svg'
+import twitter from '../public/socials/twitter.svg'
+import discord from '../public/socials/discord.svg'
+import medium from '../public/socials/medium.svg'
+
 const layers = [
     {
         name: "planet_a",

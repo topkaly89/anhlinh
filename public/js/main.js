@@ -9,7 +9,7 @@ $(function(){
     $('#fullpage').fullpage({
 		//options here
 		autoScrolling:true,
-		scrollHorizontally: false
+		scrollHorizontally: true
 	});
 
 	//methods
@@ -17,7 +17,7 @@ $(function(){
 
 
     new fullpage('#fullpage', {
-        anchors: ['page1', 'page2', 'page3', 'page4', 'page5']
+        //anchors: ['page1', 'page2', 'page3', 'page4', 'page5']
       });
       
       //adding the action to the button

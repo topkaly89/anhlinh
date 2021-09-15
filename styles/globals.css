@@ -681,8 +681,9 @@ body.fp-viewing-0 #fullpage {
   display: block;
 }
 
-.ccccc {
+.footer-bottom {
   position: absolute;
   width: 100%;
   bottom: 0;
+  z-index: 999999;
 }

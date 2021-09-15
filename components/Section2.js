@@ -56,8 +56,8 @@ export default function Section2(props) {
 
     return (
         <div className="section w-full bg is_footer" data-anchor="page5">
-            <div className="mmmmmm">
-            <div className="bbbbb">
+            <div className="footer">
+            <div className="footer-container">
             <div className="section-header px-30 flex px-44 absolute top-0 py-10 lg:py-20 justify-between w-full z-50 flex-col md:flex-row items-center">
                 <div className="section-title text-3xl lg:text-6xl flex items-center">
                     CONTACT
@@ -112,7 +112,7 @@ export default function Section2(props) {
 
             </div>
             </div>
-            <div className="ccccc">
+            <div className="footer-bottom">
             <div className="header-bottom-border"></div>
                 
             <div className="footer-body flex items-center">

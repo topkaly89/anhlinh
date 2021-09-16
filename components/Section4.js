@@ -8,6 +8,7 @@ export default function Section4() {
 
     return (
         <div className="section w-full bg">
+            <div class="bg_rotate"></div>
             <div className="container px-4">
                 <div className="flex items-center justify-between w-full">
                     <div className="info row gx-5 gy-5 m-auto">

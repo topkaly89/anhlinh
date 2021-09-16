@@ -114,7 +114,7 @@ export default function Section2(props) {
             </div>
             </div>
             <div className="footer-bottom">
-            <div className="header-bottom-border"></div>
+            <div className="footer-bottom-border"></div>
                 
             <div className="footer-body flex items-center">
                 <div className="footer-text">Copyright © 2021 ASTROV. All rights reserved.</div>

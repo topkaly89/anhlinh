@@ -628,19 +628,19 @@ img {
   }
 
   .info h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
   .info p {
-    font-size: 16px;
+    font-size: 14px;
   }
   .info img {
-    max-width: 200px !important;
+    max-width: 300px !important;
   }
   .logo {
       width: 100% !important;
   }
   .h-title {
-    font-size: 24px;
+    font-size: 20px;
   }
   .footer-text {
     font-size: 14px;
@@ -706,7 +706,12 @@ body.fp-viewing-0 #fullpage {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+.footer-bottom-border {
+	height: 1px;
+	background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50.52%, rgba(255, 255, 255, 0) 100%);
+	opacity: 0.6;
+  z-index: 99;
+}
 .footer {
   position: absolute;
   width: 100%;
@@ -742,10 +747,6 @@ body.fp-viewing-0 #fullpage {
     font-size: 1rem !important;
     bottom: .4rem !important;
   }
-  .info {
-    margin-top: 60px !important;
-    margin-bottom: 60px !important;
-  } 
 }
 .section-header {
   margin-top: 68px;

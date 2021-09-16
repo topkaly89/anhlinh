@@ -31,7 +31,7 @@ $(function(){
         });
         
       };
-      applyParallax(document.querySelector('.info'));
+      applyParallax(document.querySelector('.section'));
 
 
 

@@ -104,7 +104,7 @@ export default function Section2(props) {
                     <motion.div
                         initial={{ opacity: 0.6 }}
                         animate={{ opacity: isHovered ? 1 : 0.6 }}
-                        className="contact-now normal-text z-50 text-2xl lg:text-4xl font-extrabold absolute bottom-5 lg:bottom-10 text-center w-full"
+                        className="planet_text contact-now normal-text z-50 text-2xl lg:text-4xl font-extrabold absolute bottom-5 lg:bottom-10 text-center w-full"
                     >
                         NOW
                     </motion.div>

@@ -717,3 +717,27 @@ body.fp-viewing-0 #fullpage {
 .hover\:box-shadow-light:hover .opacity-0 {
   opacity: 1
 }
+
+
+@media screen and (max-width: 46.8125em) {
+  .planet_1 {
+    width: 280px;
+  }
+  .planet_2 {
+    width: 180px;
+  }
+  .planet_3 {
+    width: 100px;
+  }
+  .planet_text {
+    font-size: 1rem;
+    bottom: .4rem;
+  }
+  .info {
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+  } 
+}
+.section-header {
+  margin-top: 68px;
+}

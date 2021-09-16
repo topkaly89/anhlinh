@@ -652,6 +652,7 @@ img {
   position: absolute;
   top: 0;
   right: 0;
+  z-index: 9999999999;
 }
 .footer-body .socials {
   margin: auto;
@@ -690,15 +691,8 @@ body.fp-viewing-0 #fullpage {
   bottom: 0;
   z-index: 999999;
 }
-
-
-
-
-
-
-
 .hover\:box-shadow-light:hover {
-  box-shadow: 0 0 25px 10px rgba(2, 213, 189, .4)
+  box-shadow: 0 0 25px 10px rgb(165 165 165 / 40%);
 }
 .hover\:box-shadow-light:hover .opacity-0 {
   opacity: 1

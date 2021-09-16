@@ -659,11 +659,11 @@ img {
   -webkit-transition: .5s;
   transition: .5s;
   z-index: 1;
-  transform: scaleX(-1);
+  /*transform: scaleX(-1);*/
 }
 .active .bg_rotate {
-  /* transform: rotate(180deg); */
-  transform: scale(-1, -1);
+  transform: rotate(180deg); 
+  /* transform: scale(-1, -1);*/
 }
 
 .astrov-body {

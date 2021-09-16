@@ -626,9 +626,7 @@ img {
     transform: translate3d(0px, 0px, 0px);
     visibility: visible;
   }
-  .info {
-    z-index: 9;
-  }
+
   .info h2 {
     font-size: 24px;
   }
@@ -637,20 +635,6 @@ img {
   }
   .info img {
     max-width: 300px !important;
-  }
-  .bg_rotate {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: 0;
-    background: radial-gradient(126.16% 88.06% at 33.49% -22.78%,#535353 0,#000 100%);
-    -webkit-transition: .5s;
-    transition: .5s;
-    z-index: 1;
-  }
-  .active .bg_rotate {
-    transform: rotate(180deg);
   }
   .logo {
       width: 100% !important;
@@ -661,6 +645,23 @@ img {
   .footer-text {
     font-size: 14px;
   }
+}
+.info {
+  z-index: 9;
+}
+.bg_rotate {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background: radial-gradient(126.16% 88.06% at 33.49% -22.78%,#535353 0,#000 100%);
+  -webkit-transition: .5s;
+  transition: .5s;
+  z-index: 1;
+}
+.active .bg_rotate {
+  transform: rotate(180deg);
 }
 
 .astrov-body {

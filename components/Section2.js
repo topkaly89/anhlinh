@@ -116,7 +116,7 @@ export default function Section2(props) {
             <div className="header-bottom-border"></div>
                 
             <div className="footer-body flex items-center">
-                <div className="footer-text">Copyright © 2021 AstroV. All rights reserved.</div>
+                <div className="footer-text">Copyright © 2021 ASTROV. All rights reserved.</div>
                 <div className="socials flex items-center mb-4">
                     <motion.a
                         initial={{opacity: 0}}

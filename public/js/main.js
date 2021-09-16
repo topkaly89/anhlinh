@@ -4,14 +4,11 @@ $(function(){
         $('#menulist').toggleClass("hide--mobile");
     });
 
-    $(document).ready(function(){
-        $('.info').mousemove(function(e){
-          var x = -(e.pageX + this.offsetLeft) / 20;
-          var y = -(e.pageY + this.offsetTop) / 20;
-          $('.img', this).css('background-position', x + 'px ' + y + 'px');
-        });    
-    });
-
+    $('.info').mousemove(function(e){
+        var x = -(e.pageX + this.offsetLeft) / 20;
+        var y = -(e.pageY + this.offsetTop) / 20;
+        $('.img', this).css('background-position', x + 'px ' + y + 'px');
+    });   
 
     $('#fullpage').fullpage({
 		//options here

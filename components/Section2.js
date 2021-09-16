@@ -89,16 +89,17 @@ export default function Section2(props) {
                         src="/space_ship.svg"
                         onMouseEnter={() => setHovered(true)}
                         onMouseLeave={() => setHovered(false)}
+                        className="bbbbbb"
                     />
                 </a>
-                <img src="/big_planet.svg" className="absolute z-30" />
+                <img src="/big_planet.svg" className="absolute z-30 mmmm" />
                 <a
                     className="absolute z-40 flex items-center justify-center" href="mailto:contact@astrov.ventures"
                     onMouseEnter={() => setHovered(true)}
                     onMouseLeave={() => setHovered(false)}
                 >
                     <motion.img
-                        src="/normal_planet.svg" className="w-8/12 md:w-auto cursor-pointer"
+                        src="/normal_planet.svg" className="w-8/12 md:w-auto cursor-pointer   cccc"
                     />
                     <motion.div
                         initial={{ opacity: 0.6 }}

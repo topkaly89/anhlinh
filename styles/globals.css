@@ -646,7 +646,7 @@ img {
     font-size: 14px;
   }
 }
-.info {
+.info, .portfolio-container {
   z-index: 9;
 }
 .bg_rotate {

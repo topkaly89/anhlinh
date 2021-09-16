@@ -21,7 +21,15 @@ export default function Section3() {
                             </p>
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-6 text-end">
-                            <Image src={s2} width={525} />
+                            <motion.img
+                                initial={false}
+                                animate={{ y: isHovered ? -30 : 0 }}
+                                transition={{ ease: "easeOut", duration: 0.5 }}
+                                src={s2}
+                                width={525}
+                                onMouseEnter={() => setHovered(true)}
+                                onMouseLeave={() => setHovered(false)}
+                            />
                         </div>
                     </div>
                 </div>

@@ -26,7 +26,11 @@ export default function Section3(props) {
                             </p>
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-6 text-end" id={`scene-1`}>
-                        <Image src={s2} width={525} data-depth={1} />
+                        <img
+                            data-depth={1}
+                            src={s2}
+                            width={525}
+                        />
                         </div>
                     </div>
                 </div>

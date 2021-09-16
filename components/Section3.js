@@ -1,11 +1,16 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image'
-
+import Parallax from "parallax-js"
 
 import s2 from '../public/s2.svg'
 
-export default function Section3() {
+export default function Section3(props) {
+    useEffect(() => {
+        const scene1 = document.getElementById("scene-1")
+        new Parallax(scene1)
+    })
 
+    const [isHovered, setHovered] = useState(false)
     return (
         <div className="section w-full bg">
             <div className="container px-4">
@@ -20,16 +25,8 @@ export default function Section3() {
                             Our ethos strongly aligns with teams that have the desire to build industry changing platforms, and we pride ourselves in having a large range of resources to realise our shared visions.
                             </p>
                         </div>
-                        <div className="col-12 col-sm-12 col-md-6 col-lg-6 text-end">
-                            <motion.img
-                                initial={false}
-                                animate={{ y: isHovered ? -30 : 0 }}
-                                transition={{ ease: "easeOut", duration: 0.5 }}
-                                src={s2}
-                                width={525}
-                                onMouseEnter={() => setHovered(true)}
-                                onMouseLeave={() => setHovered(false)}
-                            />
+                        <div className="col-12 col-sm-12 col-md-6 col-lg-6 text-end" id={`scene-1`}>
+                        <Image src={s2} width={525} data-depth={1} />
                         </div>
                     </div>
                 </div>

@@ -9,8 +9,7 @@ import s6 from '../public/s6.svg'
 export default function Section5() {
   
     return (
-        <div className="section w-full bg">
-            <div class="bg_rotate"></div>
+        <div className="section w-full bg_rotate">
             <div className="container px-4">
                 <div className="flex items-center justify-between w-full">
                     <div className="portfolio-container row gx-5 gy-5 m-auto">

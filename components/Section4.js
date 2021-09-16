@@ -8,7 +8,6 @@ export default function Section4() {
 
     return (
         <div className="section w-full bg">
-            
             <div className="container px-4">
                     <div className="info row gx-5 gy-5 items-center">
                         <div className="col-12 col-sm-12 col-md-6 col-lg-6 text-start">

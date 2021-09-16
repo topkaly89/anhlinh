@@ -7,10 +7,9 @@ import s2 from '../public/s2.svg'
 export default function Section3() {
 
     return (
-        <div className="section w-full bg">
-            <div class="bg_rotate"></div>
+        <div className="section w-full bg_rotate">
             <div className="container px-4">
-                <div className="info row items-center m-auto">
+            <div className="info row gx-5 gy-5 items-center">
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6">
                         <h2>Why AstroV?</h2>
                         <p>

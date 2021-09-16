@@ -14,7 +14,7 @@ $(function(){
           let offX = e.pageX - (width * 0.5);
           let offY = e.pageY - (height * 0.5);
       
-          for (let layer of document.querySelectorAll('.img')) {
+          for (let layer of document.querySelectorAll('img')) {
             const speed = layer.getAttribute('data-speed')
             const x = (offX * speed) / 100;
             const y = (offY * speed) / 100;
@@ -24,7 +24,7 @@ $(function(){
         });
         section.addEventListener('mouseleave', e => {
       
-          for (let layer of document.querySelectorAll('.img')) {
+          for (let layer of document.querySelectorAll('img')) {
             layer.style.transform = `translateX(0px) translateY(0px)`
           }
       

@@ -9,7 +9,7 @@ export default function Section3() {
     return (
         <div className="section w-full bg_rotate">
             <div className="container px-4">
-            <div className="info row gx-5 gy-5 items-center m-auto">
+            <div className="info info1 row gx-5 gy-5 items-center m-auto">
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6 z-30">
                         <h2>Why AstroV?</h2>
                         <p>

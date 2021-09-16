@@ -653,6 +653,11 @@ img {
   top: 0;
   right: 0;
   z-index: 9999999999;
+  display: flex;
+  min-height: 80px;
+}
+.relative {
+  position: relative;
 }
 .footer-body .socials {
   margin: auto;

@@ -11,8 +11,8 @@ import menu from '../public/menu.svg'
 export default function Section6() {
     return (
         <div className="header w-full">
-            <div className="container px-4">
-            <div className="flex items-center justify-between mb-4">
+            <div className="container flex items-center px-4">
+            <div className="relative flex items-center justify-between">
                 <div className="menu flex items-center hide--desktop">
                 <div class="dropdown">
                 <span><Image src={menu} width={24} height={24} id="menu1"/></span>

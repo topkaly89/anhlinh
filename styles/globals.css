@@ -613,6 +613,9 @@ img {
     padding: 0 20px;
 }
 
+.info img {
+  margin: 20px;
+}
 @media screen and (max-width: 46.8125em) {
   #menulist.hide--mobile {
     -webkit-transform: translate3d(-100%, 0px, 0px);
@@ -646,6 +649,7 @@ img {
     font-size: 14px;
   }
 }
+
 .info, .portfolio-container {
   z-index: 9;
 }

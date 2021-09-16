@@ -17,7 +17,7 @@ export default function Section5() {
                     <div className="portfolio-container row gx-5 gy-5 m-auto">
                         <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
-                                <div className="img transform">
+                                <div className="img hover:box-shadow-light">
                                     <Image src={s4}/>
                                 </div>
                                 <div className="title">DotOracle</div>
@@ -25,7 +25,7 @@ export default function Section5() {
                         </div>
                         <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
-                                <div className="img transform">
+                                <div className="img hover:box-shadow-light">
                                     <Image src={s5}/>
                                 </div>
                                 <div className="title">Defi Warrior</div>
@@ -33,7 +33,7 @@ export default function Section5() {
                         </div>
                         <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <div className="portfolio">
-                                <div className="img transform">
+                                <div className="img hover:box-shadow-light">
                                     <Image src={s6}/>
                                 </div>
                                 <div className="title">Coin98</div>

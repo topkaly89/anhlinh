@@ -732,7 +732,19 @@ body.fp-viewing-0 #fullpage {
   opacity: 1
 }
 
-
+.planet_1 {
+  max-width: 450px;
+}
+.planet_2 {
+  max-width: 320px;
+}
+.planet_3 {
+  max-width: 160px;
+}
+.planet_text {
+  font-size: 1.8rem !important;
+  bottom: 1.3rem !important;
+}
 @media screen and (max-width: 46.8125em) {
   .planet_1 {
     width: 280px !important;

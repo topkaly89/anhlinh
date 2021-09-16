@@ -20,7 +20,9 @@ export default function Section3() {
                         </p>
                     </div>
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6 text-end z-30">
-                        <Image src={s2} width={525} height={525}/>
+                        <motion.img
+                            src={{s2}} width="525" height="525"
+                        />
                     </div>
                 </div>
             </div>

@@ -653,7 +653,8 @@ img {
 .info, .portfolio-container {
   z-index: 9;
 }
-.bg_rotate {
+.bg_rotate:before {
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;

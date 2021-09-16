@@ -10,8 +10,7 @@ export default function Section4() {
         <div className="section w-full bg">
             
             <div className="container px-4">
-                <div className="flex items-center justify-between w-full">
-                    <div className="info row items-center m-auto">
+                    <div className="info row gx-5 gy-5 items-center">
                         <div className="col-12 col-sm-12 col-md-6 col-lg-6 text-start">
                             <Image src={s3} width={525} />
                         </div>
@@ -22,7 +21,6 @@ export default function Section4() {
                             </p>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     )

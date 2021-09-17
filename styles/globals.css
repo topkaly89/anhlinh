@@ -530,13 +530,13 @@ img {
     color: #FFFFFF;
 }
 .portfolio .img {
-    background: rgba(255, 255, 255, 0.05);
+    /* background: rgba(255, 255, 255, 0.05); */
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 15px;
-    box-shadow: 0 0 20px 0 rgb(62 28 131 / 10%);
-    -webkit-box-shadow: 0 0 20px 0 rgb(62 28 131 / 10%);
+    /* box-shadow: 0 0 20px 0 rgb(62 28 131 / 10%);
+    -webkit-box-shadow: 0 0 20px 0 rgb(62 28 131 / 10%); */
       -webkit-transition: .5s;
     transition: .5s
 }

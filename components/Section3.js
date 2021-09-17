@@ -20,8 +20,8 @@ export default function Section3() {
                         </p>
                     </div>
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6 text-end z-30">
-                        <motion.img
-                            src="/s2.svg" width="525" height="525" data-speed="-5"
+                        <img
+                            src="/s2.svg" width="525" height="525"
                         />
                     </div>
                 </div>

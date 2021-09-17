@@ -151,7 +151,7 @@ img {
 .header-bottom-border {
 	height: 1px;
 	/* background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50.52%, rgba(255, 255, 255, 0) 100%); */
-  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50.52%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #000000 50.52%, rgba(255, 255, 255, 0) 100%);
 	opacity: 0.6;
 }
 
@@ -773,4 +773,18 @@ body.fp-viewing-0 #fullpage {
   display: flex;
   align-items: center;
   position: relative;
+}
+.info1 .container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+}
+.info1 .info {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
 }

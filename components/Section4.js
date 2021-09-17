@@ -8,11 +8,12 @@ export default function Section4() {
 
     return (
         <div className="section w-full bg">
-            <div className="container px-4">
-                    <div className="info info2 row gx-5 gy-5 items-center m-auto">
+            <div className="info2"></div>
+                <div className="container px-4">
+                    <div className="info row gx-5 gy-5 items-center m-auto">
                         <div className="col-12 col-sm-12 col-md-6 col-lg-6 text-start z-30">
-                        <img
-                            src="/s3.svg" width="525" height="525"
+                        <motion.img
+                            src="/s3.svg" width="525" height="525" data-speed="-5"
                         />
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-6 z-30">
@@ -22,6 +23,7 @@ export default function Section4() {
                             </p>
                         </div>
                     </div>
+                </div>
             </div>
         </div>
     )

@@ -661,7 +661,8 @@ img {
   top: 0;
   right: 0;
   background: radial-gradient(126.16% 88.06% at 33.49% -22.78%,#535353 0,#000 100%);
-  transform: rotate(180deg); 
+  /* transform: rotate(180deg); */
+  transform: scaleY(-1);
   z-index: 1;
 }
 

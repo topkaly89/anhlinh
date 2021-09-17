@@ -8,6 +8,7 @@ import telegram from '../public/socials/telegram.svg'
 import twitter from '../public/socials/twitter.svg'
 import discord from '../public/socials/discord.svg'
 import medium from '../public/socials/medium.svg'
+import p2e from "../public/socials/p2e.png";
 
 const layers = [
     {
@@ -42,6 +43,7 @@ const layers = [
     }
 ];
 
+const iconSize = 18;
 export default function Section2(props) {
     useEffect(() => {
         const scene1 = document.getElementById("scene-1")
@@ -58,11 +60,11 @@ export default function Section2(props) {
         <div className="section w-full bg is_footer">
             <div className="footer">
             <div className="footer-container">
-            <div className="section-header px-30 flex px-44 absolute top-0 py-10 lg:py-20 justify-between w-full z-50 flex-col md:flex-row items-center">
-                <div className="section-title text-3xl lg:text-6xl flex items-center">
+            <div className="section-header  flex px-32 absolute top-0 py-10 lg:py-20 justify-between w-full z-50 flex-col md:flex-row items-center">
+                <div className="section-title flex" id="contact_header">
                     CONTACT
                 </div>
-                <div className="section-title normal-text flex items-center text-gray-200 hover:text-white transition-all text-lg lg:text-2xl">
+                <div className="section-title normal-text flex items-center text-gray-200 hover:text-white transition-all" id="contact_email">
                     <a href="mailto:contact@astrov.ventures">contact@astrov.ventures</a>
                 </div>
             </div>
@@ -127,7 +129,7 @@ export default function Section2(props) {
                         href="https://t.me/AstroGamingSocietyVN"
                         target="_blank"
                     >
-                        <Image src={telegram} width={18} height={18} />
+                        <Image src={telegram} width={iconSize} height={iconSize} />
                     </motion.a>
                     <motion.a
                         initial={{opacity: 0}}
@@ -137,7 +139,7 @@ export default function Section2(props) {
                         href="https://discord.gg/vBJvumfvt5"
                         target="_blank"
                     >
-                        <Image src={discord} width={18} height={18} />
+                        <Image src={discord} width={iconSize} height={iconSize} />
                     </motion.a>
                     <motion.a
                         initial={{opacity: 0}}
@@ -147,18 +149,30 @@ export default function Section2(props) {
                         href="https://medium.com/@astrov.ventures"
                         target="_blank"
                     >
-                        <Image src={medium} width={18} height={18} />
+                        <Image src={medium} width={iconSize} height={iconSize} />
                     </motion.a>
                     <motion.a
                         initial={{opacity: 0}}
                         animate={{opacity: 1}}
                         transition={{ ease: "easeInOut", duration: 0.5, delay: 0.9 }}
-                        className="social-item flex items-center p-2 rounded-full transition-all bg-background hover:bg-backgroundAction cursor-pointer"
+                        className="social-item mr-4 flex items-center p-2 rounded-full transition-all bg-background hover:bg-backgroundAction cursor-pointer"
                         href="https://twitter.com/AstrovVentures"
                         target="_blank"
                     >
-                        <Image src={twitter} width={18} height={18} />
+                        <Image src={twitter} width={iconSize} height={iconSize} />
                     </motion.a>
+
+                    <motion.a
+                        initial={{opacity: 0}}
+                        animate={{opacity: 1}}
+                        transition={{ease: "easeInOut", duration: 0.5, delay: 0.1}}
+                        className="social-item  mr-4 flex items-center p-2 rounded-full transition-all bg-background hover:bg-backgroundAction cursor-pointer"
+                        href="https://p2enews.com"
+                        target="_blank"
+                    >
+                        <Image src={p2e} width={iconSize} height={iconSize}/>
+                    </motion.a>
+
                 </div>
             </div>
             </div>

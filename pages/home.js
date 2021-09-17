@@ -11,8 +11,8 @@ export default function Home() {
 	return (
 		<div>
 			<Head>
-				<title>AstroV - Take Off and Go Beyond</title>
-				<meta name="description" content="AstroV" />
+				<title>AstroV Ventures</title>
+				<meta name="description" content="AstroV Ventures" />
 				<link rel="icon" href="logo-square.svg" type="image/svg"/>
                 <link rel="stylesheet" type="text/css" href="/fullPage/fullpage.css" />
                 <script src="/js/jquery.min.js"></script>

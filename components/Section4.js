@@ -12,8 +12,8 @@ export default function Section4() {
                 <div className="container px-4">
                     <div className="info row gx-5 gy-5 items-center m-auto">
                         <div className="col-12 col-sm-12 col-md-6 col-lg-6 text-start z-30 info-mt-auto">
-                        <motion.img
-                            src="/s3.svg" width="525" height="525" data-speed="-5"
+                        <img
+                            src="/s3.svg" width="525" height="525"
                         />
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-6 z-30 info-mb-auto">

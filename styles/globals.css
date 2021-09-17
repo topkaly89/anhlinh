@@ -788,3 +788,14 @@ body.fp-viewing-0 #fullpage {
   top: 0;
   right: 0;
 }
+
+
+
+@media screen and (max-width: 46.8125em) {
+  .info .info-mt-auto {
+    margin-top: auto;
+  }
+  .info .info-mb-auto {
+    margin-bottom: auto;
+  }
+}

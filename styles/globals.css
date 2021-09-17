@@ -576,7 +576,7 @@ img {
 }
 
 
-@media screen and (max-width: 1430px) {
+@media screen and (min-width: 1430px) {
     .portfolio .img {
         width: 200px;
         height: 200px;
@@ -584,14 +584,13 @@ img {
 
 }
 
-
-
-
-
-.portfolio .img img {
-
-
+@media screen and (max-width: 1430px) {
+    .portfolio .img {
+        width: 100px;
+        height: 100px;
+    }
 }
+
 
 /*
 .portfolio .img:hover {
@@ -903,7 +902,6 @@ body.fp-viewing-0 #fullpage {
 @media screen and (max-width: 767px) {
     .info .info-mt-auto {
         margin-top: auto;
-        padding-left: 0;
     }
 
     .info .info-mb-auto {
@@ -915,12 +913,12 @@ body.fp-viewing-0 #fullpage {
 
 @media screen and (max-width: 1430px) {
     .info h2 {
-        font-size: 25px;
+        font-size: 20px;
         padding-left: 10px;
     }
 
     .info p {
-        font-size: 19px;
+        font-size: 14px;
         padding-left: 10px;
     }
 }
@@ -928,7 +926,7 @@ body.fp-viewing-0 #fullpage {
 
 @media screen and (max-width: 1430px) {
     .info img {
-        max-width: 300px !important;
+        max-width: 200px !important;
     }
     .h-title{
         font-size: 1.875rem;
@@ -957,20 +955,14 @@ body.fp-viewing-0 #fullpage {
 .info-mb-auto p{
     font-size: 18px;
 }
-.info-mb-auto h2{
-    font-size: 25px !important;
-    line-height: 0.9 !important;
-}
-.logo{
-    padding-top:30px;
-}
-
-
-
+/*.info-mb-auto h2{*/
+/*    font-size: 25px !important;*/
+/*    line-height: 0.9 !important;*/
+/*}*/
 
 
 .section-header{
-    padding-top: 2.5rem;
+    padding-top: 2rem;
     padding-bottom: 2.5rem;
 }
 

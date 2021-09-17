@@ -21,7 +21,11 @@ export default function Section3() {
                 },
                 translateX: -30,
                 translateY: 15,
-                transition: {ease: "easeInOut", duration: 1, delay: 0.2, repeat: 6, repeatType: "reverse"}
+                transition: {ease: "easeInOut", duration: 1, delay: 0.2, repeat: 6, repeatType: "reverse"},
+                transitionEnd:{
+                    translateX: 0,
+                    translateY: 0
+                }
             })
             animated = true;
         }

@@ -60,7 +60,7 @@ export default function Section2(props) {
         <div className="section w-full bg is_footer">
             <div className="footer">
             <div className="footer-container">
-            <div className="section-header  flex px-32 absolute top-0 py-10 lg:py-20 justify-between w-full z-50 flex-col md:flex-row items-center">
+            <div className="section-header  flex px-32 absolute top-0 justify-between w-full z-50 flex-col md:flex-row items-center">
                 <div className="section-title flex" id="contact_header">
                     CONTACT
                 </div>

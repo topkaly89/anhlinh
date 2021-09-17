@@ -37,7 +37,7 @@ export default function Section4() {
                                 src="/s3.svg" width="525" height="525" data-speed="-10"
                             />
                         </div>
-                        <div className="col-12 col-sm-12 col-md-6 col-lg-6 z-30 info-mb-auto">
+                        <div className="col-12 col-sm-12 col-md-6 col-lg-6 z-30 info-mb-auto pr-20">
                             <motion.h2 initial={{opacity: 0}}
                                        animate={controls}
                                        transition={{ease: "easeInOut", duration: 0.5, delay: 0.5}}

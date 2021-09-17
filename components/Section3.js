@@ -21,7 +21,7 @@ export default function Section3() {
                 },
                 translateX: -30,
                 translateY: 15,
-                transition: {ease: "easeOut", duration: 1, delay: 0.2, repeat: 6, repeatType: "reverse"}
+                transition: {ease: "easeInOut", duration: 1, delay: 0.2, repeat: 6, repeatType: "reverse"}
 
             })
         }
@@ -56,7 +56,7 @@ export default function Section3() {
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-6 text-end z-30 info-mb-auto">
                             <motion.img
-                                src="/s2.svg" width="525" height="525" data-speed="-5"
+                                src="/s2.svg" width="525" height="525" data-speed="-10"
                                 animate={controlsImage}
                             />
                         </div>

@@ -936,6 +936,39 @@ body.fp-viewing-0 #fullpage {
     line-height: 1.75rem;
 }
 
+.info-mt-auto h2{
+    font-size: 25px !important;
+    line-height: 0.9 !important;
+}
+.info-mt-auto p{
+    font-size: 18px;
+}
+.info-mb-auto p{
+    font-size: 18px;
+}
+.info-mb-auto h2{
+    font-size: 25px !important;
+    line-height: 0.9 !important;
+}
+.logo{
+    padding-top:30px;
+}
+
+.info-mt-auto{
+    padding-left: 8rem;
+}
+
+.section-header{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+
+.cta-item{
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
 @media (min-width: 1430px) {
     #contact_header {
         font-size: 3rem !important;
@@ -957,5 +990,11 @@ body.fp-viewing-0 #fullpage {
         font-size: 3rem !important;
         line-height: 1 !important;
     }
+
+    .section-header{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
 
 }

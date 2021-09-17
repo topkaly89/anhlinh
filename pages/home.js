@@ -13,15 +13,11 @@ export default function Home() {
 			<Head>
 				<title>AstroV - Take Off and Go Beyond</title>
 				<meta name="description" content="AstroV" />
-				<link rel="icon" href="/favicon.ico" />
-
+				<link rel="icon" href="logo-square.svg" type="image/svg"/>
                 <link rel="stylesheet" type="text/css" href="/fullPage/fullpage.css" />
-
                 <script src="/js/jquery.min.js"></script>
                 <script src="/fullPage/fullpage.js"></script>
-
                 <script src="/js/main.js"></script>
-                
 
 			</Head>
             <Section6/>

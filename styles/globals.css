@@ -768,20 +768,20 @@ body.fp-viewing-0 #fullpage {
 }
 
 
-.info1 {
+.info1, .info2 {
   height: 100%;
   display: flex;
   align-items: center;
   position: relative;
 }
-.info1 .container {
+.info1 .container, .info2 .container {
   position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
   right: 0;
 }
-.info1 .info {
+.info1 .info, .info2 .info {
   position: absolute;
   height: 100%;
   width: 100%;

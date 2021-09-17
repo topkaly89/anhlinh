@@ -5,23 +5,23 @@ import Image from 'next/image'
 import s3 from '../public/s3.svg'
 import {useEffect, useRef} from "react";
 import useOnScreen from "../util/utils";
-
+let animated = false;
 export default function Section4() {
     const controls = useAnimation();
     const controlsImage = useAnimation();
     const rootRef = useRef();
     const onScreen = useOnScreen(rootRef);
     useEffect(async () => {
-        if (onScreen) {
-            console.log(onScreen);
+        if (onScreen && !animated) {
 
-            controls.start({
+            controls.start( {
                 x: 0,
                 opacity: 1,
             });
             controlsImage.start({
                 rotate: 360
             });
+            animated = true;
         }
     }, [onScreen]);
     return (

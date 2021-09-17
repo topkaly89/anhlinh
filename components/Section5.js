@@ -10,7 +10,7 @@ import defi from '../public/defiwarrior.svg'
 import {useEffect, useRef} from "react";
 import useOnScreen from "../util/utils";
 
-
+let animated = false;
 export default function Section5() {
     const firstImage = useAnimation();
     const secondImage = useAnimation();
@@ -25,12 +25,12 @@ export default function Section5() {
     }
     useEffect(async () => {
         console.log(onScreen);
-        if (onScreen) {
+        if (onScreen && !animated) {
             firstImage.start({
                 initial: {
                     boxShadow: "none",
                 },
-                boxShadow: "0 0 300px 10px rgb(255 255 255)",
+                boxShadow: "0 0 25px 10px rgb(255 255 255)",
                 transition: {ease: "easeOut", duration: 0.4, delay: 0.2, repeat: 0},
                 transitionEnd:{
                     boxShadow: "none",
@@ -41,7 +41,7 @@ export default function Section5() {
                 initial: {
                     boxShadow: "none",
                 },
-                boxShadow: "0 0 300px 10px rgb(255 255 255)",
+                boxShadow: "0 0 25px 10px rgb(255 255 255)",
                 transition: {ease: "easeOut", duration: 0.4, delay: 0.6},
                 transitionEnd:{
                     boxShadow: "none",
@@ -51,12 +51,13 @@ export default function Section5() {
                 initial: {
                     boxShadow: "none",
                 },
-                boxShadow: "0 0 300px 10px rgb(255 255 255)",
+                boxShadow: "0 0 25px 10px rgb(255 255 255)",
                 transition: {ease: "easeOut", duration: 0.4, delay: 1},
                 transitionEnd:{
                     boxShadow: "none",
                 }
             });
+            animated = true;
         }
     }, [onScreen]);
     return (
@@ -75,7 +76,7 @@ export default function Section5() {
 
                         <div className="col-6 col-sm-6 col-md-4 col-lg-2" >
                             <motion.div
-
+                                animate={firstImage}
                                className="portfolio hover:box-shadow-light">
                                 <div className="img ">
                                     <Image src={s4}/>
@@ -86,6 +87,7 @@ export default function Section5() {
 
                         <div className="col-6 col-sm-6 col-md-4 col-lg-2">
                             <motion.div
+                                animate={secondImage}
                                  className="portfolio">
                                 <div className="img " id="coin98">
                                     <Image src={coin98}/>
@@ -96,6 +98,7 @@ export default function Section5() {
 
                         <div className="col-6 col-sm-6 col-md-4 col-lg-2"  ref={rootRef}>
                             <motion.div
+                                animate={thirdImage}
                                 className="portfolio"
                             >
                                 <div className="img " id="defiwarrior">

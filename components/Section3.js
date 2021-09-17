@@ -2,14 +2,14 @@ import { motion, useAnimation } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
 import useOnScreen from "../util/utils";
 
-
+let animated = false;
 export default function Section3() {
     const controls = useAnimation();
     const controlsImage = useAnimation();
     const rootRef = useRef();
     const onScreen = useOnScreen(rootRef);
-    useEffect(() => {
-        if (onScreen) {
+    useEffect(async() => {
+        if (onScreen && !animated) {
             controls.start({
                 x: 0,
                 opacity: 1,
@@ -22,8 +22,8 @@ export default function Section3() {
                 translateX: -30,
                 translateY: 15,
                 transition: {ease: "easeInOut", duration: 1, delay: 0.2, repeat: 6, repeatType: "reverse"}
-
             })
+            animated = true;
         }
     }, [onScreen]);
 
@@ -32,7 +32,7 @@ export default function Section3() {
             <div className="info1">
                 <div className="container px-16">
                     <div className="info row gx-5 gy-5 items-center m-auto">
-                        <div className="col-12 col-sm-12 col-md-6 col-lg-6 z-30 info-mt-auto" ref={rootRef}>
+                        <div className="col-12 col-sm-12 col-md-6 col-lg-6 z-30 info-mt-auto" >
 
                             <motion.h2 initial={{opacity: 0}}
                                        animate={controls}
@@ -56,7 +56,8 @@ export default function Section3() {
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-6 text-end z-30 info-mb-auto">
                             <motion.img
-                                src="/s2.svg" width="525" height="525" data-speed="-10"
+                                src="/s2.svg" width="525" height="525" data-speed="5"
+                                ref={rootRef}
                                 animate={controlsImage}
                             />
                         </div>

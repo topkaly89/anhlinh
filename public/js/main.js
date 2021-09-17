@@ -4,8 +4,6 @@ $(function(){
         $('#menulist').toggleClass("hide--mobile");
     });
 
-
-
     let applyParallax = section => {
   
         section.addEventListener('mousemove', e => {
@@ -18,14 +16,20 @@ $(function(){
             const speed = layer.getAttribute('data-speed')
             const x = (offX * speed) / 100;
             const y = (offY * speed) / 100;
-            layer.style.transform = `translateX(${x}px) translateY(${y}px)`
+            layer.style.transform = `translate3d(${x}px, ${y}px, 0px)`
+            layer.style.transformStyle = `preserve-3d`
+            layer.style.backfaceVisibility = `hidden`
+            layer.style.display = `block`
           }
       
         });
         section.addEventListener('mouseleave', e => {
       
           for (let layer of document.querySelectorAll('img')) {
-            layer.style.transform = `translateX(0px) translateY(0px)`
+            layer.style.transform = `translate3d(0px, 0px, 0px)`
+            layer.style.transformStyle = `preserve-3d`
+            layer.style.backfaceVisibility = `hidden`
+            layer.style.display = `block`
           }
       
         });
@@ -45,14 +49,20 @@ $(function(){
             const speed = layer.getAttribute('data-speed')
             const x = (offX * speed) / 100;
             const y = (offY * speed) / 100;
-            layer.style.transform = `translateX(${x}px) translateY(${y}px)`
+            layer.style.transform = `translate3d(${x}px, ${y}px, 0px)`
+            layer.style.transformStyle = `preserve-3d`
+            layer.style.backfaceVisibility = `hidden`
+            layer.style.display = `block`
           }
       
         });
         section.addEventListener('mouseleave', e => {
       
           for (let layer of document.querySelectorAll('img')) {
-            layer.style.transform = `translateX(0px) translateY(0px)`
+            layer.style.transform = `translate3d(0px, 0px, 0px)`
+            layer.style.transformStyle = `preserve-3d`
+            layer.style.backfaceVisibility = `hidden`
+            layer.style.display = `block`
           }
       
         });

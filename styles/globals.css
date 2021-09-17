@@ -801,6 +801,7 @@ body.fp-viewing-0 #fullpage {
 
 .portfolio:hover {
     box-shadow: 0 0 25px 10px rgb(255 255 255 / 40%) !important;
+    background: transparent;
 }
 
 .hover\:box-shadow-light:hover .opacity-0 {
@@ -891,14 +892,24 @@ body.fp-viewing-0 #fullpage {
 }
 
 
-@media screen and (max-width: 46.8125em) {
+
+@media screen and (min-width: 1024px) {
+    .info-mt-auto{
+        padding-left: 8rem;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
     .info .info-mt-auto {
         margin-top: auto;
+        padding-left: 0;
     }
 
     .info .info-mb-auto {
         margin-bottom: auto;
     }
+
 }
 
 
@@ -954,9 +965,9 @@ body.fp-viewing-0 #fullpage {
     padding-top:30px;
 }
 
-.info-mt-auto{
-    padding-left: 8rem;
-}
+
+
+
 
 .section-header{
     padding-top: 2.5rem;

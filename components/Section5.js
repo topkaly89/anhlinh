@@ -24,7 +24,6 @@ export default function Section5() {
             type: 'spring', velocity: 100, mass:0.5}
     }
     useEffect(async () => {
-        console.log(onScreen);
         if (onScreen && !animated) {
             firstImage.start({
                 initial: {

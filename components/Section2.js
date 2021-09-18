@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react'
+import {useEffect, useRef, useState} from 'react'
 import Parallax from "parallax-js"
-import { motion } from 'framer-motion';
+import {motion, useAnimation} from 'framer-motion';
 import Image from 'next/image'
 
 // Social logos
@@ -9,6 +9,7 @@ import twitter from '../public/socials/twitter.svg'
 import discord from '../public/socials/discord.svg'
 import medium from '../public/socials/medium.svg'
 import p2e from "../public/socials/p2e.png";
+import useOnScreen from "../util/utils";
 
 const layers = [
     {
@@ -117,7 +118,7 @@ export default function Section2(props) {
             </div>
             <div className="footer-bottom">
             <div className="footer-bottom-border"></div>
-                
+
             <div className="footer-body flex items-center">
                 <div className="footer-text">Copyright © 2021 ASTROV. All rights reserved.</div>
                 <div className="socials flex items-center mb-4">

@@ -18,62 +18,60 @@ export default function Section1() {
                             className="logo w-1/2"
                         >
                             <img src='/logo.png'/>
+                            <motion.div
+                                initial={{opacity: 0}}
+                                animate={{opacity: 1}}
+                                transition={{ease: "easeOut", duration: 0.5, delay: 0.6}}
+                                className="w-full hide--mobile" id="menulist">
+                                <div className="main-cta flex flex-col mt-10 lg:mt-12">
+                                    <motion.div
+                                        initial={{opacity: 0}}
+                                        animate={{opacity: 1}}
+                                        transition={{ease: "easeOut", duration: 0.5, delay: 0.8}}
+                                        className="moveTo cta-item mb-2 lg:mb-4 lg:text-md text-gray-400 hover:text-white transition-all cursor-pointer"
+                                        data-section="2"
+                                    >
+                                        ABOUT US
+                                    </motion.div>
+                                    <motion.div
+                                        initial={{opacity: 0}}
+                                        animate={{opacity: 1}}
+                                        transition={{ease: "easeOut", duration: 0.5, delay: 0.9}}
+                                        className="moveTo cta-item mb-2 lg:mb-4 lg:text-md text-gray-400 hover:text-white transition-all cursor-pointer"
+                                        data-section="3"
+                                    >
+                                        OUR SERVICES
+                                    </motion.div>
+                                    <motion.div
+                                        initial={{opacity: 0}}
+                                        animate={{opacity: 1}}
+                                        transition={{ease: "easeOut", duration: 0.5, delay: 1}}
+                                        className="moveTo cta-item mb-2 lg:mb-4 lg:text-md text-gray-400 hover:text-white transition-all cursor-pointer"
+                                        data-section="4"
+                                    >
+                                        PORTFOLIO
+                                    </motion.div>
+                                    <motion.div
+                                        initial={{opacity: 0}}
+                                        animate={{opacity: 1}}
+                                        transition={{ease: "easeOut", duration: 0.5, delay: 1.2}}
+                                        className="moveTo cta-item mb-2 lg:mb-4 lg:text-md  text-gray-400 hover:text-white transition-all cursor-pointer"
+                                        data-section="5"
+                                    >
+                                        CONTACT US
+                                    </motion.div>
+                                    <motion.div
+                                        initial={{opacity: 0}}
+                                        animate={{opacity: 1}}
+                                        transition={{ease: "easeOut", duration: 0.5, delay: 1.3}}
+                                        className="moveTo cta-item  lg:text-md text-gray-400 hover:text-white transition-all cursor-pointer"
+                                    >
+                                        ASTRONAUT CLUB (COMING SOON)
+                                    </motion.div>
+                                </div>
+                            </motion.div>
                         </motion.div>
-                        <motion.div
-                            initial={{opacity: 0}}
-                            animate={{opacity: 1}}
-                            transition={{ease: "easeOut", duration: 0.5, delay: 0.6}}
-                            className="w-full hide--mobile" id="menulist">
-                            <div className="text-3xl md:text-5xl lg:text-6xl select-none d-none">TAKE OFF AND GO
-                                BEYOND
-                            </div>
-                            <div className="main-cta flex flex-col mt-10 lg:mt-12">
-                                <motion.div
-                                    initial={{opacity: 0}}
-                                    animate={{opacity: 1}}
-                                    transition={{ease: "easeOut", duration: 0.5, delay: 0.8}}
-                                    className="moveTo cta-item mb-2 lg:mb-4 lg:text-md text-gray-400 hover:text-white transition-all cursor-pointer"
-                                    data-section="2"
-                                >
-                                    ABOUT US
-                                </motion.div>
-                                <motion.div
-                                    initial={{opacity: 0}}
-                                    animate={{opacity: 1}}
-                                    transition={{ease: "easeOut", duration: 0.5, delay: 0.9}}
-                                    className="moveTo cta-item mb-2 lg:mb-4 lg:text-md text-gray-400 hover:text-white transition-all cursor-pointer"
-                                    data-section="3"
-                                >
-                                    OUR SERVICES
-                                </motion.div>
-                                <motion.div
-                                    initial={{opacity: 0}}
-                                    animate={{opacity: 1}}
-                                    transition={{ease: "easeOut", duration: 0.5, delay: 1}}
-                                    className="moveTo cta-item mb-2 lg:mb-4 lg:text-md text-gray-400 hover:text-white transition-all cursor-pointer"
-                                    data-section="4"
-                                >
-                                    PORTFOLIO
-                                </motion.div>
-                                <motion.div
-                                    initial={{opacity: 0}}
-                                    animate={{opacity: 1}}
-                                    transition={{ease: "easeOut", duration: 0.5, delay: 1.2}}
-                                    className="moveTo cta-item mb-2 lg:mb-4 lg:text-md  text-gray-400 hover:text-white transition-all cursor-pointer"
-                                    data-section="5"
-                                >
-                                    CONTACT US
-                                </motion.div>
-                                <motion.div
-                                    initial={{opacity: 0}}
-                                    animate={{opacity: 1}}
-                                    transition={{ease: "easeOut", duration: 0.5, delay: 1.3}}
-                                    className="moveTo cta-item  lg:text-md text-gray-400 hover:text-white transition-all cursor-pointer"
-                                >
-                                    ASTRONAUT CLUB (COMING SOON)
-                                </motion.div>
-                            </div>
-                        </motion.div>
+
                     </div>
                 </div>
             </div>

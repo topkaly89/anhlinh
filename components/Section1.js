@@ -54,7 +54,7 @@ export default function Section1() {
                                     <motion.div
                                         initial={{opacity: 0}}
                                         animate={{opacity: 1}}
-                                        transition={{ease: "easeOut", duration: 0.5, delay: 1.3}}
+                                        transition={{ease: "easeOut", duration: 0.5, delay: 1}}
                                         className="moveTo cta-item  mb-2 lg:mb-4 lg:text-md text-gray-400 hover:text-white transition-all cursor-pointer"
                                         data-section="4"
                                     >
@@ -64,7 +64,7 @@ export default function Section1() {
                                     <motion.div
                                         initial={{opacity: 0}}
                                         animate={{opacity: 1}}
-                                        transition={{ease: "easeOut", duration: 0.5, delay: 1.2}}
+                                        transition={{ease: "easeOut", duration: 0.5, delay: 1.1}}
                                         className="moveTo cta-item  lg:text-md  text-gray-400 hover:text-white transition-all cursor-pointer"
                                         data-section="5"
                                     >

@@ -156,7 +156,7 @@ img {
     background: transparent;
 }
 
-.cta-item{
+.cta-item {
     text-align: left;
 }
 
@@ -891,9 +891,8 @@ body.fp-viewing-0 #fullpage {
 }
 
 
-
 @media screen and (min-width: 1024px) {
-    .info-mt-auto{
+    .info-mt-auto {
         padding-left: 8rem;
     }
 }
@@ -906,6 +905,9 @@ body.fp-viewing-0 #fullpage {
 
     .info .info-mb-auto {
         margin-bottom: auto;
+    }
+    #club_subtitle{
+        text-align: center;
     }
 
 }
@@ -928,7 +930,8 @@ body.fp-viewing-0 #fullpage {
     .info img {
         max-width: 200px !important;
     }
-    .h-title{
+
+    .h-title {
         font-size: 1.875rem;
         line-height: 2.25rem;
     }
@@ -940,40 +943,75 @@ body.fp-viewing-0 #fullpage {
     margin-left: 0;
 }
 
+#big_club_title {
+    text-align: center;
+}
+
+
+#big_club_title {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    margin-left: 0;
+}
+
 #contact_email {
     font-size: 1.125rem;
     line-height: 1.75rem;
 }
 
-.info-mt-auto h2{
+.info-mt-auto h2 {
     font-size: 25px !important;
     line-height: 0.9 !important;
 }
-.info-mt-auto p{
+
+.info-mt-auto p {
     font-size: 18px;
 }
-.info-mb-auto p{
+
+.info-mb-auto p {
     font-size: 18px;
 }
+
 /*.info-mb-auto h2{*/
 /*    font-size: 25px !important;*/
 /*    line-height: 0.9 !important;*/
 /*}*/
 
 
-.section-header{
+.section-header {
     padding-top: 2rem;
     padding-bottom: 2.5rem;
 }
 
 
-.cta-item{
+.cta-item {
     font-size: 0.75rem;
     line-height: 1rem;
 }
 
-@media (min-width: 1430px) {
+#club_header {
+    flex-direction: column;
+}
+
+#club_subtitle {
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+}
+
+@media (min-width: 1400px) {
     #contact_header {
+        font-size: 3rem !important;
+        line-height: 1 !important;
+        margin-top: auto;
+        margin-left: 0;
+    }
+    #club_subtitle{
+        text-align: left;
+    }
+    #big_club_title {
         font-size: 3rem !important;
         line-height: 1 !important;
         margin-top: auto;
@@ -983,21 +1021,22 @@ body.fp-viewing-0 #fullpage {
     #contact_email {
         font-size: 1.5rem;
         line-height: 2rem;
-        margin-top: auto;
+        align-self: flex-end;
     }
-    .info h2{
-        font-size: 3rem !important;
-        line-height: 1 !important;
-    }
-    .info-mt-auto h2{
+
+    .info h2 {
         font-size: 3rem !important;
         line-height: 1 !important;
     }
 
-    .section-header{
+    .info-mt-auto h2 {
+        font-size: 3rem !important;
+        line-height: 1 !important;
+    }
+
+    .section-header {
         padding-top: 5rem;
         padding-bottom: 5rem;
     }
-
 
 }

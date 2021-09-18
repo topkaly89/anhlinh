@@ -7,6 +7,7 @@ import Section3 from '../components/Section3'
 import Section4 from '../components/Section4'
 import Section5 from '../components/Section5'
 import Section6 from '../components/Section6'
+import AstroClubSection from "../components/AstroClubSection";
 
 export default function Home() {
     return (
@@ -29,7 +30,8 @@ export default function Home() {
                 <Section1/>
                 <Section3/>
                 <Section4/>
-                <Section5/>
+                {/*PORTFOLIO HERE<Section5/>*/}
+                <AstroClubSection />
                 <Section2/>
             </div>
         </div>

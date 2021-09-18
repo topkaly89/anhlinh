@@ -25,7 +25,7 @@ export default function Home() {
                 <Section1/>
                 <Section3/>
                 <Section4/>
-                <Section5/>
+                {/*PORTFOLIO HERE<Section5/>*/}
                 <Section2/>
             </div>
 		</div>

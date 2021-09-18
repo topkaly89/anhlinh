@@ -41,18 +41,18 @@ export default function Section3() {
                             <motion.h2 initial={{opacity: 0}}
                                        animate={controls}
 
-                                       transition={{ease: "easeOut", duration: 0.5, delay: 0.2}}>Why AstroV?
+                                       transition={{ease: "easeOut", duration: 0.5, delay: 0.1}}>Why AstroV?
                             </motion.h2>
                             <motion.p initial={{opacity: 0}}
                                       animate={controls}
                                       ref={rootRef}
-                                      transition={{ease: "easeOut", duration: 0.5, delay: 0.7}}>
+                                      transition={{ease: "easeOut", duration: 0.5, delay: 0.6}}>
                                 AstroV is deeply committed to providing effective support and long term value to
                                 blockchain games and technology.
                             </motion.p>
                             <motion.p initial={{opacity: 0}}
                                       animate={controls}
-                                      transition={{ease: "easeOut", duration: 0.5, delay: 1.2}}>
+                                      transition={{ease: "easeOut", duration: 0.5, delay: 1.1}}>
                                 Our ethos strongly aligns with teams that have the desire to build industry changing
                                 platforms, and we pride ourselves in having a large range of resources to realise our
                                 shared visions.

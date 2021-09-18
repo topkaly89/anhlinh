@@ -43,7 +43,7 @@ export default function AstroClubSection() {
                 <div className="flex items-center justify-between w-full" >
                     <div className="portfolio-container row gx-5 gy-5 m-auto" >
                         <div
-                            className="section-header flex px-32 absolute top-0 justify-between w-full z-50 flex-col md:flex-row items-center">
+                            className="section-header flex px-32 absolute top-1/4 justify-center w-full z-50 flex-col md:flex-row items-center">
 
                             <div className="section-title flex flex-col">
                                 <div id="big_club_title">ASTRONAUT CLUB</div>

@@ -946,7 +946,9 @@ body.fp-viewing-0 #fullpage {
 #big_club_title {
     text-align: center;
 }
-
+.section-title{
+ text-align: center;
+}
 
 #big_club_title {
     font-size: 1.875rem;
@@ -1009,7 +1011,7 @@ body.fp-viewing-0 #fullpage {
         margin-left: 0;
     }
     #club_subtitle{
-        text-align: left;
+        text-align: center;
     }
     #big_club_title {
         font-size: 3rem !important;
